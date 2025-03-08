@@ -53,7 +53,7 @@ const Footer2 = () => {
                 <div className="single-footer-widget">
                   <div className="widget-head">
                     <a href="index.html">
-                      <img src="/assets/img/logo/white-logo.svg" alt="img" />
+                      <img src="/assets/img/logo/black-logo.png" alt="img" />
                     </a>
                   </div>
                   <div className="footer-content">

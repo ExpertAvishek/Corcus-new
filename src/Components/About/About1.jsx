@@ -148,5 +148,4 @@ const About1 = () => {
     </section>
     );
 };
-
 export default About1;

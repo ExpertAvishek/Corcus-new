@@ -7999,7 +7999,7 @@ input.main-search-input::placeholder {
 }
 
 .testimonial-box-items .content .client-info .star {
-  color: #F68B21;
+  color: #f2b600;
 }
 
 .testimonial-box-items .content .client-info h5 {
@@ -8022,7 +8022,7 @@ input.main-search-input::placeholder {
 }
 
 .testimonial-wrapper .testimonial-left .client-img .content .star {
-  color: #F68B21;
+  color: #f2b600;
 }
 
 .testimonial-wrapper .testimonial-left .client-img .content p {
@@ -8902,11 +8902,11 @@ input.main-search-input::placeholder {
   }
 
   .header_sticky_style1.cs-gescout_sticky {
-    background-color: #6a47ed;
+    background-color: #f2b600;
   }
 
   .header_sticky_style1.cs_site_header.header_style_2.cs_style_1 .container::before {
-    background-color: #6a47ed;
+    background-color: #f2b600;
   }
 
   .header_sticky_style1.cs-gescout_sticky .cs_nav .cs_nav_list>li>a {

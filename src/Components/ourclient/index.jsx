@@ -34,31 +34,31 @@ const Client = () => {
       </div>
       <div className="row mt-5">
         <div className="col-6 col-md-3 mb-4">
-          <img src="https://storage.googleapis.com/a1aa/image/Nrmj22FEw76hhnUcY5CLlq50Fy0LnbA7ZO756_uEMhE.jpg" alt="Fresh On Need logo" className="img-fluid" />
+          <img src="public\assets\clients\01.png" alt="Fresh On Need logo" className="img-fluid" />
         </div>
         <div className="col-6 col-md-3 mb-4">
-          <img src="https://storage.googleapis.com/a1aa/image/9VpkNb7bK9WUejAwWCuGfpzRtYF0N_damMlDhuFM_RI.jpg" alt="Dr. Punkesh's logo" className="img-fluid" />
+          <img src="public\assets\clients\02.png" alt="Dr. Punkesh's logo" className="img-fluid" />
         </div>
         <div className="col-6 col-md-3 mb-4">
-          <img src="https://storage.googleapis.com/a1aa/image/XjC6NqKWFEcOOT0muaw87nMNuIGTno5SlVEI4SF1vaI.jpg" alt="Birla Open Minds logo" className="img-fluid" />
+          <img src="public\assets\clients\03.png" alt="Birla Open Minds logo" className="img-fluid" />
         </div>
         <div className="col-6 col-md-3 mb-4">
-          <img src="https://storage.googleapis.com/a1aa/image/Nwr6aJjtMLFf0Juq5R0sX4TdL_r7Hz00gn04TEOyT1A.jpg" alt="Fresh Supermall logo" className="img-fluid" />
+          <img src="public\assets\clients\04.png" alt="Fresh Supermall logo" className="img-fluid" />
         </div>
         <div className="col-6 col-md-3 mb-4">
-          <img src="https://storage.googleapis.com/a1aa/image/f81SxC2GeJmxwLo_4phHTKoLhWirxCPjTSHMsYDa-uU.jpg" alt="Jiffit logo" className="img-fluid" />
+          <img src="public\assets\clients\05.png" alt="Jiffit logo" className="img-fluid" />
         </div>
         <div className="col-6 col-md-3 mb-4">
-          <img src="https://storage.googleapis.com/a1aa/image/4Q4gmZzuT1lAPiR-fnC1SJVRyDwA5eUSlEdI2lZ3nJE.jpg" alt="Murga logo" className="img-fluid" />
+          <img src="public\assets\clients\06.png" alt="Murga logo" className="img-fluid" />
         </div>
         <div className="col-6 col-md-3 mb-4">
-          <img src="https://storage.googleapis.com/a1aa/image/MfqJcSBH-r90W2FijJXJ8luRicpCxJaj1V3qo1bDHWU.jpg" alt="Haridwar Farm logo" className="img-fluid" />
+          <img src="public\assets\clients\07.png" alt="Haridwar Farm logo" className="img-fluid" />
         </div>
         <div className="col-6 col-md-3 mb-4">
-          <img src="https://storage.googleapis.com/a1aa/image/jlnnzqkPdepGUaOTkt9uQODGByylTD4oDrdEEz1XZ-Q.jpg" alt="Paidavaar logo" className="img-fluid" />
+          <img src="public\assets\clients\08.png" alt="Paidavaar logo" className="img-fluid" />
         </div>
         <div className="col-6 col-md-3 mb-4">
-          <img src="https://storage.googleapis.com/a1aa/image/il8rVchvS-0Wd57DcDIoCV7-d1Zv0AP62Foh4c0ZK7c.jpg" alt="Satguru Textiles logo" className="img-fluid" />
+          <img src="public\assets\clients\09.png" alt="Satguru Textiles logo" className="img-fluid" />
         </div>
       </div>
       <div className="row mt-5 text-center">

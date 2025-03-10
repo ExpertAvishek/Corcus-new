@@ -9,21 +9,28 @@ import Team1 from "../Components/Team/Team1";
 import Testimonial3 from "../Components/Testimonial/Testimonial3";
 import WhyChoose2 from "../Components/WhyChoose/WhyChoose2";
 import WhyChoose3 from "../Components/WhyChoose/WhyChoose3";
-
+import OurJourney from "../Components/ourjourney/Ourjourney";
+import Client from "../Components/ourclient";
+import Poweredby from "../Components/poweredby";
+import ContactForm from "../Components/contactForm";
 const Home3 = () => {
   return (
     <div>
       <HeroBanner3></HeroBanner3>
       <Services2></Services2>
       <Marquee2></Marquee2>
+      <OurJourney></OurJourney>
       <WhyChoose2></WhyChoose2>
-      <CaseStudy3></CaseStudy3>
-      <Team1></Team1>
+      {/* <CaseStudy3></CaseStudy3> */}
+      {/* <Team1></Team1> */}
       <Marquee3></Marquee3>
+      <Client></Client>
+      <Poweredby></Poweredby>
       <WhyChoose3></WhyChoose3>
       <Testimonial3></Testimonial3>
-      <Counter2></Counter2>
-      <Blog2></Blog2>
+      <ContactForm></ContactForm>
+      {/* <Counter2></Counter2>
+      <Blog2></Blog2> */}
     </div>
   );
 };

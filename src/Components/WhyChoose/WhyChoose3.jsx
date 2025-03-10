@@ -51,7 +51,7 @@ const WhyChoose3 = () => {
                                     </div>
                                 </div>
                                 <div className="main-button wow fadeInUp" data-wow-delay=".3s">
-                                    <Link to="/about"> <span className="theme-btn">EXPLORE MORE </span><span className="arrow-btn"> <i className="bi bi-arrow-up-right"></i></span></Link>
+                                    <Link to="/about"> <span className="theme-btn">EXPLORE MORE </span></Link>
                                 </div>
                             </div>
                         </div>

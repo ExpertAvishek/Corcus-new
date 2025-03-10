@@ -43,33 +43,14 @@ const Testimonial3 = () => {
             <div className="overlay-shape">
                 <img src="/assets/img/testimonial/overlay-shape.png" alt="img" />
             </div>
-            <div className="overlay-shape-2">
-                <img src="/assets/img/testimonial/overlay-shape-2.png" alt="img" />
-            </div>
-            <div className="left-shape">
+           <div className="left-shape">
                 <img src="/assets/img/testimonial/left-shape.png" alt="img" />
-            </div>
-            <div className="right-shape">
-                <img src="/assets/img/testimonial/right-shape.png" alt="img" />
             </div>
             <div className="container">
                 <div className="testimonial-wrapper-3">
-                    <div className="client-1">
-                        <img src="/assets/img/testimonial/06.png" alt="img" />
-                    </div>
-                    <div className="client-2">
-                        <img src="/assets/img/testimonial/07.png" alt="img" />
-                    </div>
-                    <div className="client-3">
-                        <img src="/assets/img/testimonial/08.png" alt="img" />
-                    </div>
-                    <div className="client-4">
-                        <img src="/assets/img/testimonial/09.png" alt="img" />
-                    </div>
                     <div className="swiper testimonial-slider-2">
                         <div className="swiper-wrapper">
-                            
-                        <Slider {...settings}>
+                            <Slider {...settings}>
                         {testimonialContent.map((item, i) => (                            
                             <div key={i} className="swiper-slide">
                                 <div className="testimonial-content">
@@ -92,9 +73,7 @@ const Testimonial3 = () => {
                             </div>
                             ))}
                             </Slider>
-
-
-                        </div>
+                            </div>
                     </div>
                 </div>
             </div>

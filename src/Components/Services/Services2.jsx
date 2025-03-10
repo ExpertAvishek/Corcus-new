@@ -27,9 +27,6 @@ const Services2 = () => {
       <div className="bg-shape-2">
         <img src="/assets/img/service/bg-shape-2.png" alt="img" />
       </div>
-      <div className="right-shape-3">
-        <img src="/assets/img/service/right-shape-3.png" alt="img" />
-      </div>
       <div className="container">
         <div className="section-title text-center">
           <div className="sub-title bg-color-2 wow fadeInUp">

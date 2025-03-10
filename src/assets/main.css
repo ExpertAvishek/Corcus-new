@@ -8690,7 +8690,7 @@ input.main-search-input::placeholder {
 }
 
 .cs_site_header.cs_style_1.cs_color_1 {
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .cs_site_header.cs_style_1.cs_color_1 .cs_main_header {
@@ -8737,6 +8737,7 @@ input.main-search-input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 60px;
   }
 
   .cs_nav {

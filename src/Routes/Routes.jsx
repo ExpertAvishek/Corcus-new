@@ -25,58 +25,58 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home3></Home3>,
       },
-      {
-        path: "/about",
-        element: <AboutPage></AboutPage>,
-      },
-      {
-        path: "/team",
-        element: <TeamPage></TeamPage>,
-      },
-      {
-        path: "/team/team-details",
-        element: <TeamDetailsPage></TeamDetailsPage>,
-      },
-      {
-        path: "/pricing",
-        element: <PricingPage></PricingPage>,
-      },
-      {
-        path: "/faq",
-        element: <FaqPage></FaqPage>,
-      },
-      {
-        path: "/contact",
-        element: <ContactPage></ContactPage>,
-      },
-      {
-        path: "/service",
-        element: <ServicesPage></ServicesPage>,
-      },
-      {
-        path: "/service/service-details",
-        element: <ServiceDetailsPage></ServiceDetailsPage>,
-      },
-      {
-        path: "/project",
-        element: <CaseStudyPage></CaseStudyPage>,
-      },
-      {
-        path: "/project/project-details",
-        element: <CaseStudyDetailsPage></CaseStudyDetailsPage>,
-      },
-      {
-        path: "/blog-sidebar",
-        element: <BlogRightSidebar></BlogRightSidebar>,
-      },
-      {
-        path: "/blog",
-        element: <BlogPage></BlogPage>,
-      },
-      {
-        path: "/blog/blog-details",
-        element: <BlogDetailsPage></BlogDetailsPage>,
-      },
+      // {
+      //   path: "/about",
+      //   element: <AboutPage></AboutPage>,
+      // },
+      // {
+      //   path: "/team",
+      //   element: <TeamPage></TeamPage>,
+      // },
+      // {
+      //   path: "/team/team-details",
+      //   element: <TeamDetailsPage></TeamDetailsPage>,
+      // },
+      // {
+      //   path: "/pricing",
+      //   element: <PricingPage></PricingPage>,
+      // },
+      // {
+      //   path: "/faq",
+      //   element: <FaqPage></FaqPage>,
+      // },
+      // {
+      //   path: "/contact",
+      //   element: <ContactPage></ContactPage>,
+      // },
+      // {
+      //   path: "/service",
+      //   element: <ServicesPage></ServicesPage>,
+      // },
+      // {
+      //   path: "/service/service-details",
+      //   element: <ServiceDetailsPage></ServiceDetailsPage>,
+      // },
+      // {
+      //   path: "/project",
+      //   element: <CaseStudyPage></CaseStudyPage>,
+      // },
+      // {
+      //   path: "/project/project-details",
+      //   element: <CaseStudyDetailsPage></CaseStudyDetailsPage>,
+      // },
+      // {
+      //   path: "/blog-sidebar",
+      //   element: <BlogRightSidebar></BlogRightSidebar>,
+      // },
+      // {
+      //   path: "/blog",
+      //   element: <BlogPage></BlogPage>,
+      // },
+      // {
+      //   path: "/blog/blog-details",
+      //   element: <BlogDetailsPage></BlogDetailsPage>,
+      // },
     ],
   },
 ]);

@@ -33,7 +33,7 @@
   font-weight: 700;
   line-height: 1;
   padding: 19.5px 35px;
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 @media (max-width: 575px) {
@@ -4829,7 +4829,7 @@ span {
 }
 
 .mycustom-marque.style-2.bg-2 {
-  background-color: var(--header);
+  background-color: #151515;
   border: none;
   box-shadow: none;
   margin-top: 0;
@@ -4874,10 +4874,10 @@ span {
 }
 
 .mycustom-marque.style-3.bg-3 {
-  background-color: var(--theme);
+  background-color: #5a5a5a;
   border: none;
   box-shadow: none;
-  margin-top: -70px;
+  margin-top: -80px;
 }
 
 @media (max-width: 1399px) {

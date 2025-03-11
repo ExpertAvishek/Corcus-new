@@ -50,8 +50,8 @@ const HeroBanner2 = () => {
           const heroContent = {
             bg:'/assets/img/hero/hero-bg-2.png',  
             subtitle:"go for advertising",
-            title:' Innovative Solutions for a Digital World.',
-            content:'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or  randomised',
+            title:'Scale Your Brand with Performance-Driven Marketing',
+            content:'We help businesses maximize their ROI with data-driven strategies, high-converting ads, and powerful digital campaigns.',
             img:'/assets/img/hero/hero-image-2.png',    
             btnname:'EXPLORE MORE',             
             btnurl:'/about',             

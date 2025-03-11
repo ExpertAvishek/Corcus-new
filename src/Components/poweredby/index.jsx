@@ -8,34 +8,61 @@ const Poweredby = () => {
         <div className="container d-flex justify-content-center">
           <div className="d-flex align-items-center mx-3">
             <img
-              src="https://storage.googleapis.com/a1aa/image/UBFdx4EWaYu6ZX-UvUDbFY9pQPGSNMUC0uMu3auQ0xY.jpg"
+              src="\public\assets\img\powered\1.png"
               alt="Shopify logo"
             />
-            <span className="ms-2">shopify</span>
+
           </div>
           <div className="d-flex align-items-center mx-3">
-            <span>Ubersuggest</span>
+
           </div>
           <div className="d-flex align-items-center mx-3">
             <img
-              src="https://storage.googleapis.com/a1aa/image/Aa-kT7aI8_cJdo6LokPGM4d2FTJ8Bi6Ow7YjTzKZDns.jpg"
+              src="\public\assets\img\powered\2.png"
               alt="WordPress logo"
             />
-            <span className="ms-2">WordPress</span>
           </div>
           <div className="d-flex align-items-center mx-3">
             <img
-              src="https://storage.googleapis.com/a1aa/image/xium13DfBwMqKEsUlY2y8y--mApbnqrE_WU0r69LULo.jpg"
+              src="\public\assets\img\powered\3.png"
               alt="Google Ads logo"
             />
-            <span className="ms-2">Google Ads</span>
           </div>
           <div className="d-flex align-items-center mx-3">
             <img
-              src="https://storage.googleapis.com/a1aa/image/xium13DfBwMqKEsUlY2y8y--mApbnqrE_WU0r69LULo.jpg"
+              src="\public\assets\img\powered\4.png"
               alt="Google Ads logo"
             />
-            <span className="ms-2">Google Ads</span>
+          </div>
+          <div className="d-flex align-items-center mx-3">
+            <img
+              src="\public\assets\img\powered\5.png"
+              alt="Google Ads logo"
+            />
+          </div>
+          <div className="d-flex align-items-center mx-3">
+            <img
+              src="\public\assets\img\powered\6.png"
+              alt="Google Ads logo"
+            />
+          </div>
+          <div className="d-flex align-items-center mx-3">
+            <img
+              src="\public\assets\img\powered\7.png"
+              alt="Google Ads logo"
+            />
+          </div>
+          <div className="d-flex align-items-center mx-3">
+            <img
+              src="\public\assets\img\powered\8.png"
+              alt="Google Ads logo"
+            />
+          </div>
+          <div className="d-flex align-items-center mx-3">
+            <img
+              src="\public\assets\img\powered\9.png"
+              alt="Google Ads logo"
+            />
           </div>
         </div>
       </div>

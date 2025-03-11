@@ -9483,7 +9483,7 @@ input.main-search-input::placeholder {
 }
 
 .logo-bar {
-  background-color: black;
+  background-color: rgb(12, 10, 10);
   padding: 1rem 0;
 }
 

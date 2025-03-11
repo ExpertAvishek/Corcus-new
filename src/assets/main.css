@@ -4801,11 +4801,11 @@ span {
 
 .marquee-section-1 {
   position: relative;
-  z-index: 99;
+  z-index: 77;
 }
 
 .mycustom-marque.style-2 {
-  border: 1px solid var(--header);
+  border: 0.5px solid var(--header);
   background: var(--white);
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
   transform: rotate(1.913deg);
@@ -4822,8 +4822,8 @@ span {
 }
 
 .mycustom-marque.style-2 .scrolling-wrap .comm .cmn-textslide {
-  font-size: 30px;
-  font-weight: 800;
+  font-size: 25px;
+  font-weight: 700;
   text-transform: capitalize;
   color: var(--header);
   padding-top: 10px;
@@ -4863,8 +4863,8 @@ span {
 }
 
 .mycustom-marque.style-3 .scrolling-wrap .comm .cmn-textslide {
-  font-size: 30px;
-  font-weight: 800;
+  font-size: 25px;
+  font-weight: 700;
   text-transform: capitalize;
   color: var(--header);
   padding-top: 0;
@@ -4926,7 +4926,7 @@ span {
   margin-bottom: 30px;
 }
 
-@media (max-width: 1399px) {
+@media (max-width: 1299px) {
   .marquee-2 {
     margin-bottom: 0;
   }
@@ -9520,4 +9520,9 @@ input.main-search-input::placeholder {
 .contact-form .social-icons a {
   color: #000;
   margin-right: 1rem;
+}
+
+.card {
+  border-radius: 0.75rem;
+  /* Adjust the value as needed */
 }

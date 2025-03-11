@@ -3,22 +3,22 @@ import { Link } from "react-router-dom";
 const Services2 = () => {
   const chooseContent = [
     {
-      img: "/assets/img/service/01.png",
-      title: "SEO Marketing",
+      img: "/assets/img/service/01.gif",
+      title: "Social media Marketing",
       content:
-        "Collaboratively formulate principle capital doing progressively evolve user",
+        " Build an engaged audience with compelling content.",
     },
     {
-      img: "/assets/img/service/05.png",
-      title: "Social Media Marketing",
+      img: "/assets/img/service/05.gif",
+      title: " Google & Meta Ads",
       content:
-        "Collaboratively formulate principle capital doing progressively evolve user",
+        "Run high-ROI campaigns on Google, Facebook, and Instagram.",
     },
     {
-      img: "/assets/img/service/06.png",
-      title: "Email Marketing",
+      img: "/assets/img/service/06.gif",
+      title: " Video Production",
       content:
-        "Collaboratively formulate principle capital doing progressively evolve user",
+        " High-quality ads, reels, and motion graphics.",
     },
   ];
 

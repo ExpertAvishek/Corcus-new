@@ -1,10 +1,16 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-const Testimonial = () => {
+
+
+const Why = () => {
   return (
     <div className="container py-5">
       <div className="text-left">
-        <h1 className="display-4 text-muted">WHAT</h1>
+        <h1 className="display-3 fw-bold"style={{
+            WebkitTextStroke: "2px black", // Stroke effect
+            color: "transparent", // Removes fill color
+          }}>WHAT</h1>
+        
         <h2 className="display-3 font-weight-bold text-dark">SETS US APART</h2>
         <div className="mt-4">
           <i className="fas fa-chevron-down text-muted"></i>
@@ -16,7 +22,7 @@ const Testimonial = () => {
         {/* Image Section */}
         <div className="col-lg-6 mb-4 mb-lg-0">
           <img
-            src="https://storage.googleapis.com/a1aa/image/b3Vz1m7Gn0EhM3F76cskrnNsAvvBYAooV1bmnlBH0mI.jpg"
+            src=""
             alt="Placeholder image for the section"
             className="img-fluid"
           />
@@ -99,4 +105,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default Why ;

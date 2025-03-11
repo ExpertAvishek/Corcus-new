@@ -9526,3 +9526,101 @@ input.main-search-input::placeholder {
   border-radius: 0.75rem;
   /* Adjust the value as needed */
 }
+
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-family: 'Arial', sans-serif;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  color: #d3d3d3;
+}
+
+h2 {
+  color: #000;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+.ml-2 {
+  margin-left: 0.5rem !important;
+}
+
+.ml-4 {
+  margin-left: 1rem !important;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.mb-lg-0 {
+  margin-bottom: 0 !important;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+.display-3 {
+  font-size: 3.5rem;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #fffbea;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.card-subtitle {
+  font-size: 0.875rem;
+  color: #666666;
+}
+
+.card-text {
+  color: #555555;
+}

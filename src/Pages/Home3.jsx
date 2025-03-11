@@ -13,6 +13,8 @@ import OurJourney from "../Components/ourjourney/Ourjourney";
 import Client from "../Components/ourclient";
 import Poweredby from "../Components/poweredby";
 import ContactForm from "../Components/contactForm";
+import Why from "../Components/Why/why";
+import Testimonial4 from "../Components/Testimonial/Testimonial4";
 const Home3 = () => {
   return (
     <div>
@@ -20,14 +22,16 @@ const Home3 = () => {
       <Services2></Services2>
       <Marquee2></Marquee2>
       <OurJourney></OurJourney>
-      <WhyChoose2></WhyChoose2>
+      <Why></Why>
+      {/* <WhyChoose2></WhyChoose2> */}
       {/* <CaseStudy3></CaseStudy3> */}
       {/* <Team1></Team1> */}
       <Marquee3></Marquee3>
       <Client></Client>
       <Poweredby></Poweredby>
       <WhyChoose3></WhyChoose3>
-      <Testimonial3></Testimonial3>
+      {/* <Testimonial3></Testimonial3> */}
+      <Testimonial4></Testimonial4>
       <ContactForm></ContactForm>
       {/* <Counter2></Counter2>
       <Blog2></Blog2> */}

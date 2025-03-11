@@ -6,7 +6,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const OurJourney = () => {
   return (
     <div className="container py-5">
-      <h2 className="text-center mb-5">Our Journey</h2>
+      <h1 className="text-center display-3 fw-bold"style={{
+            WebkitTextStroke: "2px black", // Stroke effect
+            color: "transparent", // Removes fill color
+          }}>Our Journey</h1>
+      
       <div className="row">
         <div className="col-md-4 mb-4">
           <div className="card bg-black text-white h-100">

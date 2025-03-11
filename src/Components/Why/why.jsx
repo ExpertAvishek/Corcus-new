@@ -1,16 +1,20 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Why = () => {
   return (
     <div className="container py-5">
       <div className="text-left">
-        <h1 className="display-3 fw-bold"style={{
+        <h1
+          className="display-3 fw-bold"
+          style={{
             WebkitTextStroke: "2px black", // Stroke effect
             color: "transparent", // Removes fill color
-          }}>WHAT</h1>
-        
+          }}
+        >
+          WHAT
+        </h1>
+
         <h2 className="display-3 font-weight-bold text-dark">SETS US APART</h2>
         <div className="mt-4">
           <i className="fas fa-chevron-down text-muted"></i>
@@ -30,7 +34,7 @@ const Why = () => {
         {/* Content Section */}
         <div className="col-lg-6">
           <div className="d-flex align-items-center mb-4">
-            <div className="text-muted display-4">01</div>
+            <div className="text-black display-4">01</div>
             <img
               src="https://storage.googleapis.com/a1aa/image/9ZqNSBt3oECYmUYDesZIM36AoeRPtgH-KYeGSYY2a8M.jpg"
               alt="Icon representing innovation-driven strategies"
@@ -39,12 +43,14 @@ const Why = () => {
               height="40"
             />
             <div className="ml-4">
-              <h3 className="h5 font-weight-bold">Innovation-Driven Strategies</h3>
+              <h3 className="h5 font-weight-bold">
+                Innovation-Driven Strategies
+              </h3>
               <p>We believe in staying ahead of the curve.</p>
             </div>
           </div>
           <div className="d-flex align-items-center mb-4">
-            <div className="text-muted display-4">02</div>
+            <div className="text-black display-4">02</div>
             <img
               src="https://storage.googleapis.com/a1aa/image/AtJo7pNfsjd8A4DJMLCF7ZFn03dpM-V6XeyR-zgLYok.jpg"
               alt="Icon representing client-centric approach"
@@ -58,7 +64,7 @@ const Why = () => {
             </div>
           </div>
           <div className="d-flex align-items-center mb-4">
-            <div className="text-muted display-4">03</div>
+            <div className="text-black display-4">03</div>
             <img
               src="https://storage.googleapis.com/a1aa/image/sEMFNr7IaSRRRL_igj1N1pKaiP-wQSEu4iKfXSlZFyU.jpg"
               alt="Icon representing industry expertise"
@@ -72,7 +78,7 @@ const Why = () => {
             </div>
           </div>
           <div className="d-flex align-items-center mb-4">
-            <div className="text-muted display-4">04</div>
+            <div className="text-black display-4">04</div>
             <img
               src="https://storage.googleapis.com/a1aa/image/1VRK4AsD_Q0mpk6flDadeSnpuigkkjP8KHgmQd8T4kM.jpg"
               alt="Icon representing client-centric focus"
@@ -86,7 +92,7 @@ const Why = () => {
             </div>
           </div>
           <div className="d-flex align-items-center mb-4">
-            <div className="text-muted display-4">05</div>
+            <div className="text-black display-4">05</div>
             <img
               src="https://storage.googleapis.com/a1aa/image/4QPwVTyLY0P-zNbwLhz1XUbsx2-sYOGXeXfHScYTfao.jpg"
               alt="Icon representing collaboration and teamwork"
@@ -95,7 +101,9 @@ const Why = () => {
               height="40"
             />
             <div className="ml-4">
-              <h3 className="h5 font-weight-bold">Collaboration and Teamwork</h3>
+              <h3 className="h5 font-weight-bold">
+                Collaboration and Teamwork
+              </h3>
               <p>Trust is the foundation of all successful partnerships.</p>
             </div>
           </div>
@@ -105,4 +113,4 @@ const Why = () => {
   );
 };
 
-export default Why ;
+export default Why;

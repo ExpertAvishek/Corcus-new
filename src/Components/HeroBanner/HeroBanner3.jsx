@@ -12,7 +12,7 @@ const HeroBanner3 = () => {
         const heroContent = {
             bg:'/assets/img/hero/hero-bg-3.jpg',  
             subtitle:"go for advertising",
-            title:' Scale Your Brand with<span>Performance<br>Driven Marketing </br></span>',
+            title:' Scale Your Brand with<span> Performance<br>Driven Marketing </br></span>',
             content:' We help businesses maximize their ROI with data-driven strategies, high-converting ads, and powerful digital campaigns.',
             img:'/assets/img/hero/hero-image-3.png',     
             btnname:'Get a Free Consultation ',             

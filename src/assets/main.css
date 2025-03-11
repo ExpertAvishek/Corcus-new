@@ -4491,7 +4491,7 @@ span {
 }
 
 .hero-3 .hero-content h1 span {
-  background: linear-gradient(90deg, #6A47ED 35.31%, #FB17FF 100%);
+  background: linear-gradient(90deg, #ffa800 35.31%, #d4a547 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

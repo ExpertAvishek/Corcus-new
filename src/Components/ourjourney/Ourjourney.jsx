@@ -16,7 +16,8 @@ const OurJourney = () => {
           <div className="card bg-black text-white h-100">
             <div className="card-body">
               <p className="card-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+              Founded with a vision to revolutionize digital advertising, Corcus Studio began as a small creative hub fueled by innovation and passion. Our mission was simple yet powerful, to help brands unlock their full potential through strategic and data-driven marketing. Over the years, we have evolved into a performance marketing powerhouse, delivering high-impact campaigns that drive tangible results.
+
               </p>
             </div>
           </div>
@@ -25,7 +26,8 @@ const OurJourney = () => {
           <div className="card bg-black text-white h-100">
             <div className="card-body">
               <p className="card-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+              From startups looking to establish their brand identity to established businesses aiming for exponential growth, we have partnered with clients across industries to create ROI-driven marketing solutions. Our expertise spans SEO, social media marketing, paid advertising, content creation, and brand strategy, ensuring a 360-degree approach to digital success.
+
               </p>
             </div>
           </div>
@@ -34,7 +36,8 @@ const OurJourney = () => {
           <div className="card bg-black text-white h-100">
             <div className="card-body">
               <p className="card-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+              At Corcus Studio, we don’t just run ads we craft compelling narratives, execute precise targeting, and optimize every campaign for maximum performance. Our journey has been marked by innovation, adaptability, and a relentless focus on results, helping brands scale from zero to millions with measurable growth.
+
               </p>
             </div>
           </div>

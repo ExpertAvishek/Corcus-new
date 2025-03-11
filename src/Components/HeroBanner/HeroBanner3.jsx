@@ -14,7 +14,7 @@ const HeroBanner3 = () => {
     bg: "/assets/img/hero/hero-bg-3.jpg",
     subtitle: "go for advertising",
     title:
-      " Scale Your Brand with<span>Performance<br>Driven Marketing </br></span>",
+      " Scale Your Brand with<span> Performance<br>Driven Marketing </br></span>",
     content:
       " We help businesses maximize their ROI with data-driven strategies, high-converting ads, and powerful digital campaigns.",
     img: "/assets/img/hero/hero-image-3.png",
@@ -23,16 +23,6 @@ const HeroBanner3 = () => {
     btnurl: "/contact",
   };
 
-<<<<<<< HEAD
-        const heroContent = {
-            bg:'/assets/img/hero/hero-bg-3.jpg',  
-            subtitle:"go for advertising",
-            title:' Scale Your Brand with<span> Performance<br>Driven Marketing </br></span>',
-            content:' We help businesses maximize their ROI with data-driven strategies, high-converting ads, and powerful digital campaigns.',
-            img:'/assets/img/hero/hero-image-3.png',     
-            btnname:'Get a Free Consultation ',             
-            btnurl:'/contact',             
-=======
   return (
     <section className="hero-section hero-3" data-background={heroContent.bg}>
       <div className="container-fluid">
@@ -86,7 +76,6 @@ const HeroBanner3 = () => {
             radius:5px
             gap: 8px;
             transition: all 0.3s ease-in-out;
->>>>>>> 394d396cf9c4df3354a03c8f9f8893f864dae866
           }
 
           .contact-btn:hover {

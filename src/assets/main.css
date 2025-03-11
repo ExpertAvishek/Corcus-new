@@ -4487,12 +4487,12 @@ span {
 
 @media (max-width: 575px) {
   .hero-3 .hero-content h1 {
-    font-size: 34px;
+    font-size: 30px;
   }
 }
 
 .hero-3 .hero-content h1 span {
-  background: linear-gradient(90deg, #ffa800 35.31%, #d4a547 100%);
+  background: linear-gradient(90deg, #ffa800 35.31%, #ffd900 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -6949,7 +6949,7 @@ input.main-search-input::placeholder {
 }
 
 .section-title .sub-title span {
-  background: linear-gradient(90deg, #080808 0%, #00A9B5 100%);
+  background: linear-gradient(90deg, #080808 0%, #080b0b 100%);
   display: inline-block;
   font-weight: 700;
   text-transform: uppercase;
@@ -6960,11 +6960,11 @@ input.main-search-input::placeholder {
 }
 
 .section-title .sub-title.bg-color-2 {
-  background: rgba(56, 75, 255, 0.1);
+  background: #dad8d4;
 }
 
 .section-title .sub-title.bg-color-3 {
-  background: rgba(246, 243, 254, 0.1);
+  background: rgba(130, 130, 132, 0.1);
 }
 
 .section-title .sub-title.bg-color-3 span {

@@ -1,10 +1,7 @@
 import { Link } from "react-router-dom";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/autoplay";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Services2 = () => {
   const chooseContent = [
@@ -30,6 +27,36 @@ const Services2 = () => {
     },
   ];
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <section className="service-section fix section-padding">
       <div className="bg-shape-2">
@@ -44,47 +71,31 @@ const Services2 = () => {
             Use SEO to Drive Growth <br /> at Your Business
           </h2>
         </div>
-        <Swiper
-          modules={[Navigation, Pagination, Autoplay]}
-          spaceBetween={20}
-          slidesPerView={1}
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
-          breakpoints={{
-            640: { slidesPerView: 2 },
-            1024: { slidesPerView: 4 },
-          }}
-          navigation
-          pagination={{ clickable: true }}
-          className="service-slider"
-        >
+        <Slider {...settings} className="service-slider">
           {chooseContent.map((item, i) => (
-            <SwiperSlide key={i}>
-              <div className="service-card-items style-2 bg-dark-yellow shadow-sm p-4 rounded-lg">
-                <div className="service-thumb">
-                  <img src={item.img} alt="service" />
-                </div>
-                <div className="content">
-                  <h3 className="title-2 text-sm">
-                    <Link to="/service/service-details">{item.title}</Link>
-                  </h3>
-                  <p>{item.content}</p>
-                  <Link to="/service/service-details" className="service-btn">
-                    Read more <i className="bi bi-arrow-right"></i>
-                  </Link>
-                </div>
+            <div
+              key={i}
+              className="service-card-items style-2 bg-dark-yellow shadow-sm p-6 rounded-md mx-1 text-center"
+              style={{ maxWidth: "180px", margin: "auto" }}
+            >
+              <div className="service-thumb">
+                <img src={item.img} alt="service" className="w-2/3 mx-auto" />
               </div>
-            </SwiperSlide>
+              <div className="content text-center">
+                <h3 className="title-2 text-xs">
+                  <Link to="/service/service-details">{item.title}</Link>
+                </h3>
+                <Link
+                  to="/service/service-details"
+                  className="service-btn text-xs"
+                >
+                  Read more <i className="bi bi-arrow-right"></i>
+                </Link>
+              </div>
+            </div>
           ))}
-        </Swiper>
+        </Slider>
       </div>
-      <style>
-        {`
-          .swiper-button-prev,
-          .swiper-button-next {
-            color: darkyellow !important;
-          }
-        `}
-      </style>
     </section>
   );
 };

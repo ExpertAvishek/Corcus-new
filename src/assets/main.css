@@ -8533,7 +8533,7 @@ input.main-search-input::placeholder {
 }
 
 .cs_site_header.cs_style_1.cs-sticky-active {
-  background-color: #000;
+  background-color: transparent;
   box-shadow: 0 10px 10px -10px rgba(33, 43, 53, 0.1);
 }
 
@@ -8699,7 +8699,7 @@ input.main-search-input::placeholder {
 }
 
 .cs_site_header.cs_style_1.cs_color_1 .cs_nav_list>li>a {
-  color: #18191d;
+  color: #ffffff;
 }
 
 .cs_site_header.cs_style_1.cs_color_1 .cs_nav_list>li>a:hover {

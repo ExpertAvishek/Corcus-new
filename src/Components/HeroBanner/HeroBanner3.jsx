@@ -24,7 +24,7 @@ const HeroBanner3 = () => {
   };
 
   return (
-    <section className="hero-section hero-3" data-background={heroContent.bg}>
+    <section className="hero-section hero-3">
       <div className="container-fluid">
         <div className="row g-4 justify-content-between align-items-center">
           <div className="col-lg-6">

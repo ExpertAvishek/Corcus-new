@@ -70,11 +70,7 @@ export default function Header2({ variant }) {
 
                   <div className="main-button main-btn-area2">
                     <Link to="/contact">
-<<<<<<< HEAD
-                      <span className="theme-btn"> Get Started </span>
-=======
                       <span className="theme-btn"> Contact Us </span>
->>>>>>> 1b254f561655390067c67e1ee0cd7b46ab502557
                     </Link>
                   </div>
                 </div>

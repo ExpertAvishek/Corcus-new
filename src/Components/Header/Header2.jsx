@@ -41,7 +41,7 @@ export default function Header2({ variant }) {
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
                 <Link className="cs_site_branding" to="/">
-                  <img src="/assets/img/logo/black-logo.png" alt="Logo" />
+                  <img src="/assets/img/logo/logo.png" alt="Logo" />
                 </Link>
               </div>
               <div className="cs_main_header_center">
@@ -70,7 +70,11 @@ export default function Header2({ variant }) {
 
                   <div className="main-button main-btn-area2">
                     <Link to="/contact">
+<<<<<<< HEAD
                       <span className="theme-btn"> Get Started </span>
+=======
+                      <span className="theme-btn"> Contact Us </span>
+>>>>>>> 1b254f561655390067c67e1ee0cd7b46ab502557
                     </Link>
                   </div>
                 </div>

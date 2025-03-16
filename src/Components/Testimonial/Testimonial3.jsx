@@ -1,105 +1,102 @@
-import Slider from "react-slick";
-
-const Testimonial3 = () => {
-
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        swipeToSlide: true,
-        autoplay: true,
-        autoplaySpeed: 4000,        
-        responsive: [
-          {
-            breakpoint: 1399,
-            settings: {
-              slidesToShow: 1,
-            }
-          },
-          {
-            breakpoint: 1199,
-            settings: {
-              slidesToShow: 1,
-            }
-          },{
-            breakpoint: 575,
-            settings: {
-              slidesToShow: 1,
-            }
-          }
-        ]
-      };  
-
-    const testimonialContent = [
-        {img:'/assets/img/testimonial/05.png', subtitle:'Trader, USA', title:'Esther Howard', content:' Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris nullam the as integer quam dolor nunc semper.  faucibus pulvinar neque. The as Suscipit tristique mauris consectetur platea.'},
-        {img:'/assets/img/testimonial/05.png', subtitle:'Trader, USA', title:'Esther Howard', content:' Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris nullam the as integer quam dolor nunc semper.  faucibus pulvinar neque. The as Suscipit tristique mauris consectetur platea.'},
-      ]; 
-
-    return (
-        <section className="testimonial-section-3 section-padding pt-0">
-            <div className="overlay-shape">
-                <img src="/assets/img/testimonial/overlay-shape.png" alt="img" />
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+const Testimonial = () => {
+  return (
+    <div className="container py-5">
+      <div className="text-left">
+        <h1 className="display-4 text-muted">WHAT</h1>
+        <h2 className="display-3 font-weight-bold text-dark">SETS US APART</h2>
+        <div className="mt-4">
+          <i className="fas fa-chevron-down text-muted"></i>
+          <i className="fas fa-chevron-down text-muted ml-2"></i>
+          <i className="fas fa-chevron-down text-warning ml-2"></i>
+        </div>
+      </div>
+      <div className="row mt-5">
+        {/* Image Section */}
+        <div className="col-lg-6 mb-4 mb-lg-0">
+          <img
+            src="https://storage.googleapis.com/a1aa/image/b3Vz1m7Gn0EhM3F76cskrnNsAvvBYAooV1bmnlBH0mI.jpg"
+            alt="Placeholder image for the section"
+            className="img-fluid"
+          />
+        </div>
+        {/* Content Section */}
+        <div className="col-lg-6">
+          <div className="d-flex align-items-center mb-4">
+            <div className="text-muted display-4">01</div>
+            <img
+              src="https://storage.googleapis.com/a1aa/image/9ZqNSBt3oECYmUYDesZIM36AoeRPtgH-KYeGSYY2a8M.jpg"
+              alt="Icon representing innovation-driven strategies"
+              className="ml-4"
+              width="40"
+              height="40"
+            />
+            <div className="ml-4">
+              <h3 className="h5 font-weight-bold">Innovation-Driven Strategies</h3>
+              <p>We believe in staying ahead of the curve.</p>
             </div>
-            <div className="overlay-shape-2">
-                <img src="/assets/img/testimonial/overlay-shape-2.png" alt="img" />
+          </div>
+          <div className="d-flex align-items-center mb-4">
+            <div className="text-muted display-4">02</div>
+            <img
+              src="https://storage.googleapis.com/a1aa/image/AtJo7pNfsjd8A4DJMLCF7ZFn03dpM-V6XeyR-zgLYok.jpg"
+              alt="Icon representing client-centric approach"
+              className="ml-4"
+              width="40"
+              height="40"
+            />
+            <div className="ml-4">
+              <h3 className="h5 font-weight-bold">Client-Centric Approach</h3>
+              <p>Our clients are at the heart of everything we do.</p>
             </div>
-            <div className="left-shape">
-                <img src="/assets/img/testimonial/left-shape.png" alt="img" />
+          </div>
+          <div className="d-flex align-items-center mb-4">
+            <div className="text-muted display-4">03</div>
+            <img
+              src="https://storage.googleapis.com/a1aa/image/sEMFNr7IaSRRRL_igj1N1pKaiP-wQSEu4iKfXSlZFyU.jpg"
+              alt="Icon representing industry expertise"
+              className="ml-4"
+              width="40"
+              height="40"
+            />
+            <div className="ml-4">
+              <h3 className="h5 font-weight-bold">Industry Expertise</h3>
+              <p>Trust is the foundation of all successful partnerships.</p>
             </div>
-            <div className="right-shape">
-                <img src="/assets/img/testimonial/right-shape.png" alt="img" />
+          </div>
+          <div className="d-flex align-items-center mb-4">
+            <div className="text-muted display-4">04</div>
+            <img
+              src="https://storage.googleapis.com/a1aa/image/1VRK4AsD_Q0mpk6flDadeSnpuigkkjP8KHgmQd8T4kM.jpg"
+              alt="Icon representing client-centric focus"
+              className="ml-4"
+              width="40"
+              height="40"
+            />
+            <div className="ml-4">
+              <h3 className="h5 font-weight-bold">Client-Centric Focus</h3>
+              <p>Our mission is to generate measurable outcomes.</p>
             </div>
-            <div className="container">
-                <div className="testimonial-wrapper-3">
-                    <div className="client-1">
-                        <img src="/assets/img/testimonial/06.png" alt="img" />
-                    </div>
-                    <div className="client-2">
-                        <img src="/assets/img/testimonial/07.png" alt="img" />
-                    </div>
-                    <div className="client-3">
-                        <img src="/assets/img/testimonial/08.png" alt="img" />
-                    </div>
-                    <div className="client-4">
-                        <img src="/assets/img/testimonial/09.png" alt="img" />
-                    </div>
-                    <div className="swiper testimonial-slider-2">
-                        <div className="swiper-wrapper">
-                            
-                        <Slider {...settings}>
-                        {testimonialContent.map((item, i) => (                            
-                            <div key={i} className="swiper-slide">
-                                <div className="testimonial-content">
-                                    <div className="icon">
-                                        <img src="/assets/img/testimonial/quote.png" alt="img" />
-                                    </div>
-                                    <p>
-                                    {item.content}
-                                    </p>
-                                    <div className="client-info">
-                                        <div className="client-img">
-                                            <img src={item.img} alt="img" />
-                                        </div>
-                                        <div className="content">
-                                            <h6>{item.title}</h6>
-                                            <span>{item.subtitle}</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            ))}
-                            </Slider>
-
-
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div className="d-flex align-items-center mb-4">
+            <div className="text-muted display-4">05</div>
+            <img
+              src="https://storage.googleapis.com/a1aa/image/4QPwVTyLY0P-zNbwLhz1XUbsx2-sYOGXeXfHScYTfao.jpg"
+              alt="Icon representing collaboration and teamwork"
+              className="ml-4"
+              width="40"
+              height="40"
+            />
+            <div className="ml-4">
+              <h3 className="h5 font-weight-bold">Collaboration and Teamwork</h3>
+              <p>Trust is the foundation of all successful partnerships.</p>
             </div>
-        </section>
-    );
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
-export default Testimonial3;
+export default Testimonial;

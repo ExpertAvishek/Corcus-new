@@ -20,28 +20,13 @@ const WhyChoose2 = () => {
           }, []);
 
     return ( 
-        <section className="team-section fix section-padding bg-cover" data-background="/assets/img/team/team-bg.jpg">
-        <div className="shape-img float-bob-y">
-            <img src="/assets/img/service/rocket-shape.png" alt="img" />
-        </div>
+        <section className="team-section fix section-padding bg-cover " data-background="/assets/img/team/team-bg.jpg">
         <div className="container">
             <div className="team-wrapper style-3">
                 <div className="row g-4">
                     <div className="col-lg-6">
                         <div className="team-image-2">
                             <img src={chooseContent.img} alt="img" className="wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s" />
-                            <div className="client-shape float-bob-x">
-                                <img src="/assets/img/team/client-shape.png" alt="img" />
-                            </div>
-                            <div className="box-shape float-bob-y">
-                                <img src="/assets/img/team/box-shape.png" alt="img" />
-                            </div>
-                            <a href="team.html" className="circle-button">
-                            <i className="bi bi-arrow-up-right"></i>
-                                <span className="text-circle">
-                                    <img src="/assets/img/about/white-text.png" alt="img" />
-                                </span>
-                            </a>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -88,7 +73,7 @@ const WhyChoose2 = () => {
                                 </ul>
                             </div>
                             <div className="main-button wow fadeInUp" data-wow-delay=".5s">
-                                <Link to="/team"> <span className="theme-btn"> EXPLORE MORE </span><span className="arrow-btn"> <i className="bi bi-arrow-up-right"></i></span></Link>
+                                <Link to="/team"> <span className="theme-btn"> EXPLORE MORE </span></Link>
                             </div>
                         </div>
                     </div>

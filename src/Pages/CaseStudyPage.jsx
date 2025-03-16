@@ -1,4 +1,4 @@
-import CaseStudy4 from "../Components/CaseStudy/CaseStudy4";
+import CaseStudy3 from "../Components/CaseStudy/CaseStudy3";
 import BreadCumb from "../Components/Common/BreadCumb";
 
 const CaseStudyPage = () => {
@@ -8,7 +8,7 @@ const CaseStudyPage = () => {
                 bgimg="/assets/img/breadcrumb.jpg"
                 Title="Case studies"
             ></BreadCumb>       
-            <CaseStudy4></CaseStudy4>      
+            <CaseStudy3></CaseStudy3>      
         </div>
     );
 };

@@ -12,7 +12,7 @@ const Blog4 = () => {
         {img:'/assets/img/news/14.jpg', title:'Focus logistics secure new landmark Contracts'},
         {img:'/assets/img/news/12.jpg', title:'Importers achieve savings through the First Sale rule!'},
         {img:'/assets/img/news/13.jpg', title:'Transid Named a Finalist For Year 25 Best Choice'},
-      ]; 
+      ];
 
     return (
         <section className="news-section section-padding fix">
@@ -49,9 +49,7 @@ const Blog4 = () => {
                     </div>
                 </div>
                 ))}  
-
-
-            </div>
+         </div>
 
         </div>
     </section>

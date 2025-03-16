@@ -33,7 +33,7 @@
   font-weight: 700;
   line-height: 1;
   padding: 19.5px 35px;
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 @media (max-width: 575px) {
@@ -4271,6 +4271,7 @@ span {
   color: var(--white);
 }
 
+
 .hero-2 .hero-content .hero-button .link-btn {
   font-size: 16px;
   font-weight: 700;
@@ -4486,12 +4487,12 @@ span {
 
 @media (max-width: 575px) {
   .hero-3 .hero-content h1 {
-    font-size: 34px;
+    font-size: 30px;
   }
 }
 
 .hero-3 .hero-content h1 span {
-  background: linear-gradient(90deg, #6A47ED 35.31%, #FB17FF 100%);
+  background: linear-gradient(90deg, #ffa800 35.31%, #ffd900 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -4800,11 +4801,11 @@ span {
 
 .marquee-section-1 {
   position: relative;
-  z-index: 99;
+  z-index: 77;
 }
 
 .mycustom-marque.style-2 {
-  border: 1px solid var(--header);
+  border: 0.5px solid var(--header);
   background: var(--white);
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
   transform: rotate(1.913deg);
@@ -4821,15 +4822,15 @@ span {
 }
 
 .mycustom-marque.style-2 .scrolling-wrap .comm .cmn-textslide {
-  font-size: 30px;
-  font-weight: 800;
+  font-size: 25px;
+  font-weight: 700;
   text-transform: capitalize;
   color: var(--header);
   padding-top: 10px;
 }
 
 .mycustom-marque.style-2.bg-2 {
-  background-color: var(--header);
+  background-color: #151515;
   border: none;
   box-shadow: none;
   margin-top: 0;
@@ -4862,8 +4863,8 @@ span {
 }
 
 .mycustom-marque.style-3 .scrolling-wrap .comm .cmn-textslide {
-  font-size: 30px;
-  font-weight: 800;
+  font-size: 25px;
+  font-weight: 700;
   text-transform: capitalize;
   color: var(--header);
   padding-top: 0;
@@ -4874,10 +4875,10 @@ span {
 }
 
 .mycustom-marque.style-3.bg-3 {
-  background-color: var(--theme);
+  background-color: #5a5a5a;
   border: none;
   box-shadow: none;
-  margin-top: -70px;
+  margin-top: -80px;
 }
 
 @media (max-width: 1399px) {
@@ -4925,7 +4926,7 @@ span {
   margin-bottom: 30px;
 }
 
-@media (max-width: 1399px) {
+@media (max-width: 1299px) {
   .marquee-2 {
     margin-bottom: 0;
   }
@@ -6948,7 +6949,7 @@ input.main-search-input::placeholder {
 }
 
 .section-title .sub-title span {
-  background: linear-gradient(90deg, #080808 0%, #00A9B5 100%);
+  background: linear-gradient(90deg, #080808 0%, #080b0b 100%);
   display: inline-block;
   font-weight: 700;
   text-transform: uppercase;
@@ -6959,11 +6960,11 @@ input.main-search-input::placeholder {
 }
 
 .section-title .sub-title.bg-color-2 {
-  background: rgba(56, 75, 255, 0.1);
+  background: #dad8d4;
 }
 
 .section-title .sub-title.bg-color-3 {
-  background: rgba(246, 243, 254, 0.1);
+  background: rgba(130, 130, 132, 0.1);
 }
 
 .section-title .sub-title.bg-color-3 span {
@@ -7999,7 +8000,7 @@ input.main-search-input::placeholder {
 }
 
 .testimonial-box-items .content .client-info .star {
-  color: #F68B21;
+  color: #f2b600;
 }
 
 .testimonial-box-items .content .client-info h5 {
@@ -8022,7 +8023,7 @@ input.main-search-input::placeholder {
 }
 
 .testimonial-wrapper .testimonial-left .client-img .content .star {
-  color: #F68B21;
+  color: #f2b600;
 }
 
 .testimonial-wrapper .testimonial-left .client-img .content p {
@@ -8690,7 +8691,7 @@ input.main-search-input::placeholder {
 }
 
 .cs_site_header.cs_style_1.cs_color_1 {
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .cs_site_header.cs_style_1.cs_color_1 .cs_main_header {
@@ -8737,6 +8738,7 @@ input.main-search-input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 60px;
   }
 
   .cs_nav {
@@ -8902,11 +8904,11 @@ input.main-search-input::placeholder {
   }
 
   .header_sticky_style1.cs-gescout_sticky {
-    background-color: #6a47ed;
+    background-color: #f2b600;
   }
 
   .header_sticky_style1.cs_site_header.header_style_2.cs_style_1 .container::before {
-    background-color: #6a47ed;
+    background-color: #f2b600;
   }
 
   .header_sticky_style1.cs-gescout_sticky .cs_nav .cs_nav_list>li>a {
@@ -9470,4 +9472,155 @@ input.main-search-input::placeholder {
   .news-section {
     display: none;
   }
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, white, #dcdcdc);
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, #fffacd, #add8e6);
+}
+
+.logo-bar {
+  background-color: rgb(12, 10, 10);
+  padding: 1rem 0;
+}
+
+.logo-bar img {
+  height: 30px;
+}
+
+.logo-bar span {
+  color: white;
+  font-size: 1.125rem;
+  /* 18px */
+}
+
+.contact-form {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.contact-form h1,
+.contact-form h2 {
+  font-weight: bold;
+}
+
+.contact-form .btn-custom {
+  background-color: #000;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.contact-form .social-icons a {
+  color: #000;
+  margin-right: 1rem;
+}
+
+.card {
+  border-radius: 0.75rem;
+  /* Adjust the value as needed */
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-family: 'Arial', sans-serif;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  color: #d3d3d3;
+}
+
+h2 {
+  color: #000;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+.ml-2 {
+  margin-left: 0.5rem !important;
+}
+
+.ml-4 {
+  margin-left: 1rem !important;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.mb-lg-0 {
+  margin-bottom: 0 !important;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+.display-3 {
+  font-size: 3.5rem;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #fffbea;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.card-subtitle {
+  font-size: 0.875rem;
+  color: #666666;
+}
+
+.card-text {
+  color: #555555;
 }

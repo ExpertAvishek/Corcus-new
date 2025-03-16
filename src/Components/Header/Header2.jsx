@@ -71,9 +71,6 @@ export default function Header2({ variant }) {
                   <div className="main-button main-btn-area2">
                     <Link to="/contact">
                       <span className="theme-btn"> Get Started </span>
-                      <span className="arrow-btn">
-                        <i className="bi bi-arrow-right"></i>
-                      </span>
                     </Link>
                   </div>
                 </div>

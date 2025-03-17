@@ -2,68 +2,35 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Poweredby = () => {
+  const logos = [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png",
+    "8.png",
+    "9.png",
+  ];
+
   return (
-    <div className="bg-gradient">
-      <div className="logo-bar">
-        <div className="container d-flex justify-content-center">
-          <div className="d-flex align-items-center mx-3">
-            <img
-              src="\public\assets\img\powered\1.png"
-              alt="Shopify logo"
-            />
-
-          </div>
-          <div className="d-flex align-items-center mx-3">
-
-          </div>
-          <div className="d-flex align-items-center mx-3">
-            <img
-              src="\public\assets\img\powered\2.png"
-              alt="WordPress logo"
-            />
-          </div>
-          <div className="d-flex align-items-center mx-3">
-            <img
-              src="\public\assets\img\powered\3.png"
-              alt="Google Ads logo"
-            />
-          </div>
-          <div className="d-flex align-items-center mx-3">
-            <img
-              src="\public\assets\img\powered\4.png"
-              alt="Google Ads logo"
-            />
-          </div>
-          <div className="d-flex align-items-center mx-3">
-            <img
-              src="\public\assets\img\powered\5.png"
-              alt="Google Ads logo"
-            />
-          </div>
-          <div className="d-flex align-items-center mx-3">
-            <img
-              src="\public\assets\img\powered\6.png"
-              alt="Google Ads logo"
-            />
-          </div>
-          <div className="d-flex align-items-center mx-3">
-            <img
-              src="\public\assets\img\powered\7.png"
-              alt="Google Ads logo"
-            />
-          </div>
-          <div className="d-flex align-items-center mx-3">
-            <img
-              src="\public\assets\img\powered\8.png"
-              alt="Google Ads logo"
-            />
-          </div>
-          <div className="d-flex align-items-center mx-3">
-            <img
-              src="\public\assets\img\powered\9.png"
-              alt="Google Ads logo"
-            />
-          </div>
+    <div className="bg-black py-5 text-center">
+      <h4 className="text-white mb-4">Working With</h4>
+      <div className="container">
+        <div className="row justify-content-center">
+          {logos.map((logo, index) => (
+            <div
+              key={index}
+              className="col-6 col-md-4 col-lg-2 d-flex justify-content-center mb-3"
+            >
+              <img
+                src={`/assets/img/powered/${logo}`}
+                alt={`Logo ${index + 1}`}
+                className="img-fluid"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>

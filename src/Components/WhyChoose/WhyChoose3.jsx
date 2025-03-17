@@ -3,62 +3,82 @@ import loadBackgroudImages from "../Common/loadBackgroudImages";
 import { Link } from "react-router-dom";
 
 const WhyChoose3 = () => {
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
 
-        useEffect(() => {
-            loadBackgroudImages();
-        }, []);
-
-    return (
-        <section className="about-section-2 fix section-padding bg-cover" data-background="/assets/img/team/team-bg.jpg" >
-            <div className="bg-shape">
-                <img src="/assets/img/about/bg-shape-2.png" alt="img" />
+  return (
+    <section
+      className="about-section-2 fix section-padding bg-cover"
+      data-background="/assets/img/team/team-bg.jpg"
+    >
+      <div className="bg-shape">
+        <img src="/assets/img/about/bg-shape-2.png" alt="img" />
+      </div>
+      <div className="container">
+        <div className="about-wrapper-2">
+          <div className="row g-4">
+            <div className="col-lg-6">
+              <div
+                className="about-image-2 wow img-custom-anim-left"
+                data-wow-duration="1.5s"
+                data-wow-delay="0.3s"
+              >
+                <img
+                  src="/assets/img/choose-us.png"
+                  alt="img"
+                  className="w-100"
+                />
+              </div>
             </div>
-            <div className="container">
-                <div className="about-wrapper-2">
-                    <div className="row g-4">
-                        <div className="col-lg-6">
-                            <div className="about-image-2 wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                               <img src="/assets/img/choose-us.png" alt="img" className="w-100" />
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="about-content">
-                                <div className="section-title">
-                                    <div className="sub-title bg-color-2 wow fadeInUp">
-                                        <span>Why Choose us</span>
-                                    </div>
-                                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                        Let’s make something awesome together
-                                    </h2>
-                                </div>
-                                <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                    We are not just another agency - we are your digital growth partners. With
-                                    years of industry experience and a passion for innovation, our team is
-                                    dedicated to delivering measurable results propel your business forward.
-                                </p>
-                                <div className="icon-items-area">
-                                    <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
-                                        <div className="content mt-0">
-                                            <h3>Analytics Reporting</h3>
-                                            <p>Collaboratively formulate principle capital. Progressively evolve user </p>
-                                        </div>
-                                    </div>
-                                    <div className="icon-items wow fadeInUp" data-wow-delay=".5s">
-                                        <div className="content mt-0">
-                                            <h3>Data Guard Sentinel</h3>
-                                            <p>Collaboratively formulate principle capital. Progressively evolve user </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="main-button wow fadeInUp" data-wow-delay=".3s">
-                                    <Link to="/about"> <span className="theme-btn">EXPLORE MORE </span></Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div className="col-lg-6">
+              <div className="about-content">
+                <div className="section-title">
+                  <div className="sub-title bg-color-2 wow fadeInUp">
+                    <span>Why Choose us</span>
+                  </div>
+                  <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    Let’s make something awesome together
+                  </h2>
                 </div>
+                <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                  We are not just another agency - we are your digital growth
+                  partners. With years of industry experience and a passion for
+                  innovation, our team is dedicated to delivering measurable
+                  results propel your business forward.
+                </p>
+                <div className="icon-items-area">
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
+                    <div className="content mt-0">
+                      <h3>Analytics Reporting</h3>
+                      <p>
+                        Collaboratively formulate principle capital.
+                        Progressively evolve user{" "}
+                      </p>
+                    </div>
+                  </div>
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".5s">
+                    <div className="content mt-0">
+                      <h3>Data Guard Sentinel</h3>
+                      <p>
+                        Collaboratively formulate principle capital.
+                        Progressively evolve user{" "}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="main-button wow fadeInUp" data-wow-delay=".3s">
+                  <Link to="/about">
+                    {" "}
+                    <span className="theme-btn">EXPLORE MORE </span>
+                  </Link>
+                </div>
+              </div>
             </div>
-            <div className="cta-marketing-2 section-padding pb-0">
+          </div>
+        </div>
+      </div>
+      {/* <div className="cta-marketing-2 section-padding pb-0">
                 <div className="container">
                     <div className="cta-marketing-wrapper">
                         <div className="content">
@@ -95,10 +115,10 @@ const WhyChoose3 = () => {
                             <img src="/assets/img/cta-marketing.png" alt="img" />
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-    );
+                </div> */}
+      {/* </div> */}
+    </section>
+  );
 };
 
 export default WhyChoose3;

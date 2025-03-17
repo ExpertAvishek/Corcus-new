@@ -25,10 +25,10 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home3></Home3>,
       },
-      // {
-      //   path: "/about",
-      //   element: <AboutPage></AboutPage>,
-      // },
+      {
+        path: "/about",
+        element: <AboutPage></AboutPage>,
+      },
       {
         path: "/team",
         element: <TeamPage></TeamPage>,

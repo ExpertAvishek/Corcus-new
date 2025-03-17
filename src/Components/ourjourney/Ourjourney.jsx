@@ -5,7 +5,7 @@ const OurJourney = () => {
   return (
     <div className="container py-5">
       <h1
-        className="text-center display-3 fw-bold"
+        className="text-center display-3 fw-bold mb-5"
         style={{
           WebkitTextStroke: "2px black", // Stroke effect
           color: "transparent", // Removes fill color

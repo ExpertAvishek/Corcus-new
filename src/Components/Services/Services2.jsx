@@ -38,57 +38,44 @@ const Services2 = () => {
     responsive: [
       {
         breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-        },
+        settings: { slidesToShow: 3 },
       },
       {
         breakpoint: 640,
-        settings: {
-          slidesToShow: 2,
-        },
+        settings: { slidesToShow: 2 },
       },
       {
         breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-        },
+        settings: { slidesToShow: 1 },
       },
     ],
   };
 
   return (
-    <section className="service-section fix section-padding">
+    <section className="service-section">
       <div className="bg-shape-2">
         <img src="/assets/img/service/bg-shape-2.png" alt="background" />
       </div>
       <div className="container">
         <div className="section-title text-center">
-          <div className="sub-title bg-color-2 wow fadeInUp">
+          <div className="sub-title">
             <span>OUR SERVICES</span>
           </div>
-          <h2 className="wow fadeInUp text-dark-yellow" data-wow-delay=".3s">
+          <h2 className="text-dark-yellow">
             Use SEO to Drive Growth <br /> at Your Business
           </h2>
         </div>
         <Slider {...settings} className="service-slider">
           {chooseContent.map((item, i) => (
-            <div
-              key={i}
-              className="service-card-items style-2 bg-dark-yellow shadow-sm p-6 rounded-md mx-1 text-center"
-              style={{ maxWidth: "180px", margin: "auto" }}
-            >
+            <div key={i} className="service-card-items">
               <div className="service-thumb">
-                <img src={item.img} alt="service" className="w-2/3 mx-auto" />
+                <img src={item.img} alt={item.title} />
               </div>
-              <div className="content text-center">
-                <h3 className="title-2 text-xs">
+              <div className="content">
+                <h3>
                   <Link to="/service/service-details">{item.title}</Link>
                 </h3>
-                <Link
-                  to="/service/service-details"
-                  className="service-btn text-xs"
-                >
+                <Link to="/service/service-details" className="service-btn">
                   Read more <i className="bi bi-arrow-right"></i>
                 </Link>
               </div>

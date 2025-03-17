@@ -30,7 +30,7 @@ const Team3 = () => {
                             </div>
                             <div className="icon-shape">
                                 <img src="/assets/img/team/icon-shape.png" alt="img" />
-                                <div className="social-profile">
+                                {/* <div className="social-profile">
                                     <ul>
                                     <li><Link to={item.content}><i className="bi bi-instagram"></i></Link></li>
                                         <li><Link to={item.content}><i className="bi bi-facebook"></i></Link></li>
@@ -38,7 +38,7 @@ const Team3 = () => {
                                         <li><Link to={item.content}><i className="bi bi-linkedin"></i></Link></li>
                                     </ul>
                                     <span className="plus-btn"><i className="bi bi-share"></i></span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

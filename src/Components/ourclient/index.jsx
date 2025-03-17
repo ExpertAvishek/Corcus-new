@@ -88,13 +88,12 @@ const Client = () => {
               className="display-4 fw-bold counter"
               data-target={item.target}
               style={{
-                WebkitTextStroke: "2px black", // Stroke effect for counter
-                color: "transparent", // Removes fill color
+                color: "black", // Removes fill color
               }}
             >
               0
             </p>
-            <p className="h5 text-black fw-bold">{item.text}</p>
+            <p className="h6 text-black fw-bold">{item.text}</p>
           </div>
         ))}
       </div>

@@ -8,10 +8,7 @@ import WhyChoose4 from "../Components/WhyChoose/WhyChoose4";
 const ServicesPage = () => {
   return (
     <div>
-      <BreadCumb
-        bgimg="/assets/img/breadcrumb.jpg"
-        Title="Our Services"
-      ></BreadCumb>
+      
       <Services2></Services2>
       <WhyChoose4></WhyChoose4>
       <Pricing1 CoulmnClass="pricing-section section-padding"></Pricing1>

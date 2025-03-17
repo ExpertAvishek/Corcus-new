@@ -29,10 +29,10 @@ export const router = createBrowserRouter([
         path: "/about",
         element: <AboutPage></AboutPage>,
       },
-      {
-        path: "/team",
-        element: <TeamPage></TeamPage>,
-      },
+      // {
+      //   path: "/team",
+      //   element: <TeamPage></TeamPage>,
+      // },
       // {
       //   path: "/team/team-details",
       //   element: <TeamDetailsPage></TeamDetailsPage>,
@@ -45,14 +45,14 @@ export const router = createBrowserRouter([
       //   path: "/faq",
       //   element: <FaqPage></FaqPage>,
       // },
-      // {
-      //   path: "/contact",
-      //   element: <ContactPage></ContactPage>,
-      // },
-      // {
-      //   path: "/service",
-      //   element: <ServicesPage></ServicesPage>,
-      // },
+      {
+        path: "/contact",
+        element: <ContactPage></ContactPage>,
+      },
+      {
+        path: "/service",
+        element: <ServicesPage></ServicesPage>,
+      },
       // {
       //   path: "/service/service-details",
       //   element: <ServiceDetailsPage></ServiceDetailsPage>,

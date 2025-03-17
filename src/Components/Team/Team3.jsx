@@ -29,7 +29,7 @@ const Team3 = () => {
                                 <p>{item.content}</p>
                             </div>
                             <div className="icon-shape">
-                                <img src="/assets/img/team/icon-shape.png" alt="img" />
+                                {/* <img src="/assets/img/team/icon-shape.png" alt="img" /> */}
                                 {/* <div className="social-profile">
                                     <ul>
                                     <li><Link to={item.content}><i className="bi bi-instagram"></i></Link></li>

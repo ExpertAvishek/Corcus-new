@@ -61,13 +61,6 @@ export default function Header2({ variant }) {
               </div>
               <div className="cs_main_header_right">
                 <div className="header-btn d-flex align-items-center">
-                  <a
-                    onClick={() => setSearchToggle(!searchToggle)}
-                    className="search-trigger search-icon"
-                  >
-                    <i className="bi bi-search"></i>
-                  </a>
-
                   <div className="main-button main-btn-area2">
                     <Link to="/contact">
                       <span className="theme-btn"> Contact Us </span>

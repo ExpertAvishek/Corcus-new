@@ -11,10 +11,10 @@ const WhyChoose4 = () => {
     return (
         <section className="team-section fix section-padding bg-cover" data-background="/assets/img/service/service-bg.jpg">
             <div className="shape-img float-bob-y">
-                <img src="/assets/img/service/rocket-shape.png" alt="img" />
+                <img src="/assets/img/service/rocket-shape.png" alt="img"/>
             </div>
             <div className="shape-img-2 float-bob-y">
-                <img src="/assets/img/service/right-shape-2.png" alt="img" />
+                <img src="/assets/img/service/right-shape-2.png" alt="img"/>
             </div>
             <div className="container">
                 <div className="team-wrapper style-4">

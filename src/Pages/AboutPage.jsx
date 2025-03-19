@@ -8,8 +8,7 @@ import Value1 from "../Components/Value/Value1";
 
 const AboutPage = () => {
     return (
-        <div>
-            
+        <div> 
             <About2 addclass="about-section-2 fix section-padding"></About2>
             <Counter3></Counter3>
             <Value1></Value1>

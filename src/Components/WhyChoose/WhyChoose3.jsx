@@ -42,27 +42,24 @@ const WhyChoose3 = () => {
                   </h2>
                 </div>
                 <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                  We are not just another agency - we are your digital growth
-                  partners. With years of industry experience and a passion for
-                  innovation, our team is dedicated to delivering measurable
-                  results propel your business forward.
+                At Corcus Studio, we go beyond advertising—we create powerful brand stories that deliver real results. Our 360° marketing solutions cover SEO, social media, Google Ads, and more. Backed by data-driven strategies and creative excellence, we tailor campaigns to maximize your brand’s impact. 
+
                 </p>
                 <div className="icon-items-area">
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
                     <div className="content mt-0">
-                      <h3>Analytics Reporting</h3>
+                      <h3>ROI-Driven Approach</h3>
                       <p>
-                        Collaboratively formulate principle capital.
-                        Progressively evolve user{" "}
+                      We don’t just run ads; we drive measurable growth.
+                      {" "}
                       </p>
                     </div>
                   </div>
                   <div className="icon-items wow fadeInUp" data-wow-delay=".5s">
                     <div className="content mt-0">
-                      <h3>Data Guard Sentinel</h3>
+                      <h3> Data-Backed Strategies</h3>
                       <p>
-                        Collaboratively formulate principle capital.
-                        Progressively evolve user{" "}
+                      Every decision is based on analytics and consumer behavior.{" "}
                       </p>
                     </div>
                   </div>
@@ -70,7 +67,7 @@ const WhyChoose3 = () => {
                 <div className="main-button wow fadeInUp" data-wow-delay=".3s">
                   <Link to="/about">
                     {" "}
-                    <span className="theme-btn">EXPLORE MORE </span>
+                    <span className="theme-btn">EXPLORE MORE</span>
                   </Link>
                 </div>
               </div>

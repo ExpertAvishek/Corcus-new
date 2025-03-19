@@ -18,12 +18,16 @@ const Services2 = () => {
       title: "Video Production & Shoot",
     },
     {
+      img: "/assets/img/service/09.gif",
+      title: "Web Development",
+    },
+    {
       img: "/assets/img/service/07.gif",
-      title: "Content Writing",
+      title: "Performance Marketing",
     },
     {
       img: "/assets/img/service/08.gif",
-      title: "Web Development",
+      title: "SEO & Content Marketing",
     },
   ];
 

@@ -1,106 +1,85 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const Testimonial4 = () => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    arrows: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-
   return (
-    <div
-      className="d-flex flex-column align-items-center justify-content-center min-vh-100 p-2"
-      style={{ background: "transparent" }}
-    >
-      <div className="text-center mb-">
-        <h1 className="display-5 font-weight-bold text-dark">CLIENT</h1>
-        <h2 className="display-6 font-weight-bold text-dark">FEEDBACK</h2>
+    <div className="container py-5">
+      <div className="feedback-title">
+        <h1>CLIENT</h1>
+        <h2>FEEDBACK</h2>
       </div>
-      <div className="w-100 px-3">
-        <Slider {...settings}>
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="d-flex justify-content-center">
-              <div
-                className="card text-center m-1"
-                style={{
-                  width: "16rem",
-                  background: "transparent",
-                  border: "1px solid rgba(255, 255, 255, 0.5)",
-                }}
-              >
-                <div className="card-body p-2">
-                  <h5 className="card-title font-weight-bold mb-1">
-                    {testimonial.name}
-                  </h5>
-                  <h6 className="card-subtitle mb-1 text-muted">
-                    {testimonial.designation}
-                  </h6>
-                  <div className="my-1">
-                    {[...Array(5)].map((_, i) => (
-                      <i key={i} className="fas fa-star text-warning"></i>
-                    ))}
-                  </div>
-                  <p className="card-text mb-1" style={{ fontSize: "0.9rem" }}>
-                    {testimonial.feedback}
-                  </p>
-                </div>
-              </div>
+      <div className="row mt-4">
+        <div className="col-lg-3 col-md-6 mb-4">
+          <div className="feedback-card">
+            <h3>Dan Gabreil</h3>
+            <p>Marketing Head | Coinsafe VPN</p>
+            <div className="stars">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
             </div>
-          ))}
-        </Slider>
+            <p className="feedback-text">Corcus Studio transformed our online presence. Our ROAS doubled in just 3 months
+            </p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-6 mb-4">
+          <div className="feedback-card">
+            <h3>Charu Jain</h3>
+            <p>Marketing Head | Rishabh Industries Pvt</p>
+            <div className="stars">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+            </div>
+            <p className="feedback-text"> Exceptional team! Their ad campaigns brought us quality leads at an unbeatable cost.
+            </p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-6 mb-4">
+          <div className="feedback-card">
+            <h3>Norman Dental</h3>
+            <p>CEO | Wurth Industries</p>
+            <div className="stars">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+            </div>
+            <p className="feedback-text">The best decision we made for our brand! Their creative team and ad strategy are top-notch.
+            </p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-6 mb-4">
+          <div className="feedback-card">
+            <h3>Monika K</h3>
+            <p>Founder | K99 Solutions</p>
+            <div className="stars">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+            </div>
+            <p className="feedback-text">I would highly recommend Corcus Studio to anyone looking for top-tier design services.</p>
+          </div>
+        </div>
+      </div>
+      <div className="navigation-buttons">
+        <button>
+          <i className="fas fa-chevron-left"></i>
+        </button>
+        <button>
+          <i className="fas fa-chevron-right"></i>
+        </button>
       </div>
     </div>
   );
 };
-
-const testimonials = [
-  {
-    name: "Dan Gabreil",
-    designation: "Marketing Head | Coinsafe VPN",
-    feedback:
-      "Working with Doodlo was a game changer for us. They revamped our brand and website with unmatched creativity & precision.",
-  },
-  {
-    name: "Charu Jain",
-    designation: "Marketing Head | Rishabh Industries Pvt.Ltd",
-    feedback:
-      "Doodlo Guys hyped our packaging design! Their creativity and attention to detail brought our product to life.",
-  },
-  {
-    name: "Norman Dental",
-    designation: "CEO | Wurth Industries",
-    feedback:
-      "Doodlo is definitely the right choice for our coffee table project. The team came up with unique ideas that set us apart.",
-  },
-  {
-    name: "Monika K",
-    designation: "Founder | K99 Solutions",
-    feedback:
-      "You guys nailed it! Their work on our brand and website was absolutely top-notch. Everything exceeded our expectations.",
-  },
-];
-
 export default Testimonial4;
+ 

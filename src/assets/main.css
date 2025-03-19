@@ -9585,3 +9585,73 @@ input.main-search-input::placeholder {
     max-width: 120px;
   }
 }
+
+/* css of client feedback */
+body {
+  font-family: 'poppins', sans-serif;
+}
+
+.feedback-title {
+  text-align: left;
+}
+
+.feedback-title h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000;
+}
+
+.feedback-title h2 {
+  font-size: 3rem;
+  font-style: 900;
+  color: #000;
+  margin-top: 0.5rem;
+}
+
+.feedback-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.feedback-card h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.feedback-card p {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.feedback-card .stars {
+  margin-top: 0.5rem;
+}
+
+.feedback-card .stars i {
+  color: #ffc107;
+}
+
+.feedback-card .feedback-text {
+  margin-top: 1rem;
+  color: #555;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.navigation-buttons button {
+  font-size: 1.5rem;
+  color: #ffc107;
+  background: none;
+  border: none;
+}

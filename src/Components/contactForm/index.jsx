@@ -21,13 +21,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container-fluid d-flex justify-content-center align-items-center min-vh-100">
-      <div
-        className="shadow-lg p-5 rounded bg-white position-relative w-90"
-        style={{ maxWidth: "1500px" }}
-      >
-        {/* Social Icons inside container (right side vertically aligned) */}
-        <div className="position-absolute top-50 end-0 translate-middle-y d-flex flex-column gap-3 fs-4">
+    <div className="container-fluid d-flex justify-content-center align-items-center p-3 min-vh-100 contact-container">
+      <div className="shadow-lg p-5 rounded contact-card">
+        {/* Social Icons (Right Side) */}
+        <div className="social-icons">
           <a href="#" className="text-dark">
             <FaLinkedin />
           </a>
@@ -40,9 +37,9 @@ const ContactForm = () => {
         </div>
 
         <div className="row">
-          {/* Left Side Text */}
+          {/* Left Side Content */}
           <div className="col-md-6 p-4">
-            <h2 className="fw-bold">LET’S DISCUSS</h2>
+            <h2 className="contact-heading">LET’S DISCUSS</h2>
             <h3 className="fw-bold mt-2">YOUR NEXT PROJECT</h3>
             <p className="mt-3 text-muted">
               <strong>Ready to turn your vision into reality?</strong> Whether
@@ -106,13 +103,13 @@ const ContactForm = () => {
           </div>
         </div>
 
-        {/* Angled Marquee inside Contact Box */}
-        <div
-          className="w-100 mt-3 overflow-hidden"
-          style={{ transform: "rotate(-10deg)" }}
-        >
-          <Marquee className="bg-dark text-white py-2 fw-bold text-uppercase">
-            Reach Us &nbsp; Reach Us &nbsp; Reach Us &nbsp; Reach Us &nbsp;
+        {/* Marquee Animation */}
+        <div className="marquee-container">
+          <Marquee className="marquee-text">
+            BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW
+          </Marquee>
+          <Marquee className="marquee-text rotated">
+            BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW
           </Marquee>
         </div>
       </div>

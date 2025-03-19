@@ -10,10 +10,10 @@ const ServicesPage = () => {
     <div>
       
       <Services2></Services2>
-      <WhyChoose4></WhyChoose4>
-      <Pricing1 CoulmnClass="pricing-section section-padding"></Pricing1>
-      <Cta2></Cta2>
-      <Testimonial2></Testimonial2>
+      {/* <WhyChoose4></WhyChoose4> */}
+      {/* <Pricing1 CoulmnClass="pricing-section section-padding"></Pricing1> */}
+      {/* <Cta2></Cta2> */}
+      {/* <Testimonial2></Testimonial2> */}
     </div>
   );
 };

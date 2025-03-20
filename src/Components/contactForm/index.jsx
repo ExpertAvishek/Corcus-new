@@ -109,7 +109,7 @@ const ContactForm = () => {
             BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW
           </Marquee>
           <Marquee className="marquee-text rotated">
-            BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW
+            BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW &nbsp; Book Now
           </Marquee>
         </div>
       </div>

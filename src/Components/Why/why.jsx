@@ -15,7 +15,9 @@ const Why = () => {
           WHAT
         </h1>
 
-        <h2 className="display-3 font-weight-bold text-dark">SETS US APART</h2>
+        <h2 className="display-2 font-weight-bolder text-dark"           style={{
+            WebkitTextStroke: "3px black", // Stroke effect
+          }}>SETS US APART</h2>
         <div className="mt-4">
           <i className="fas fa-chevron-down text-muted"></i>
           <i className="fas fa-chevron-down text-muted ml-2"></i>

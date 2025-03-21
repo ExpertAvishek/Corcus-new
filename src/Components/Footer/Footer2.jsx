@@ -90,7 +90,7 @@ const Footer2 = () => {
                     <li>
                       <Link to="/about">
                         <i className="bi bi-arrow-right"></i>
-                        Digtek About
+                        About Corcus
                       </Link>
                     </li>
                     <li>

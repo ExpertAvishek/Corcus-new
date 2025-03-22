@@ -1,7 +1,7 @@
 
 const ContactInfo2 = () => {
     return (
-        <div>
+            <div>
         <section className="contact-info-section fix section-padding">
             <div className="container">
                 <div className="row g-4">

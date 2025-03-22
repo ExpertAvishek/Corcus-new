@@ -35,78 +35,73 @@ const Why = () => {
         </div>
         {/* Content Section */}
         <div className="col-lg-6">
-          <div className="d-flex align-items-center mb-4">
+          <div className="d-flex align-items-center mb-4 gap-4">
             <div className="text-black display-4">01</div>
             <img
               src="https://storage.googleapis.com/a1aa/image/9ZqNSBt3oECYmUYDesZIM36AoeRPtgH-KYeGSYY2a8M.jpg"
               alt="Icon representing innovation-driven strategies"
-              className="ml-4"
               width="40"
               height="40"
             />
-            <div className="ml-4">
-              <h3 className="h5 font-weight-bold">
+            <div>
+              <h3 className="h5 fw-bold mb-2">
                 Innovation-Driven Strategies
               </h3>
-              <p>We believe in staying ahead of the curve.</p>
+              <p className="mb-0">We believe in staying ahead of the curve.</p>
             </div>
           </div>
-          <div className="d-flex align-items-center mb-4">
+          <div className="d-flex align-items-center mb-4 gap-4">
             <div className="text-black display-4">02</div>
             <img
               src="https://storage.googleapis.com/a1aa/image/AtJo7pNfsjd8A4DJMLCF7ZFn03dpM-V6XeyR-zgLYok.jpg"
               alt="Icon representing client-centric approach"
-              className="ml-4"
               width="40"
               height="40"
             />
-            <div className="ml-4">
-              <h3 className="h5 font-weight-bold">Client-Centric Approach</h3>
-              <p>Our clients are at the heart of everything we do.</p>
+            <div>
+              <h3 className="h5 fw-bold mb-2">Client-Centric Approach</h3>
+              <p className="mb-0">Our clients are at the heart of everything we do.</p>
             </div>
           </div>
-          <div className="d-flex align-items-center mb-4">
+          <div className="d-flex align-items-center mb-4 gap-4">
             <div className="text-black display-4">03</div>
             <img
               src="https://storage.googleapis.com/a1aa/image/sEMFNr7IaSRRRL_igj1N1pKaiP-wQSEu4iKfXSlZFyU.jpg"
               alt="Icon representing industry expertise"
-              className="ml-4"
               width="40"
               height="40"
             />
-            <div className="ml-4">
-              <h3 className="h5 font-weight-bold">Industry Expertise</h3>
-              <p>Trust is the foundation of all successful partnerships.</p>
+            <div>
+              <h3 className="h5 fw-bold mb-2">Industry Expertise</h3>
+              <p className="mb-0">Trust is the foundation of all successful partnerships.</p>
             </div>
           </div>
-          <div className="d-flex align-items-center mb-4">
+          <div className="d-flex align-items-center mb-4 gap-4">
             <div className="text-black display-4">04</div>
             <img
               src="https://storage.googleapis.com/a1aa/image/1VRK4AsD_Q0mpk6flDadeSnpuigkkjP8KHgmQd8T4kM.jpg"
               alt="Icon representing client-centric focus"
-              className="ml-4"
               width="40"
               height="40"
             />
-            <div className="ml-4">
-              <h3 className="h5 font-weight-bold">Client-Centric Focus</h3>
-              <p>Our mission is to generate measurable outcomes.</p>
+            <div>
+              <h3 className="h5 fw-bold mb-2">Client-Centric Focus</h3>
+              <p className="mb-0">Our mission is to generate measurable outcomes.</p>
             </div>
           </div>
-          <div className="d-flex align-items-center mb-4">
+          <div className="d-flex align-items-center mb-4 gap-4">
             <div className="text-black display-4">05</div>
             <img
               src="https://storage.googleapis.com/a1aa/image/4QPwVTyLY0P-zNbwLhz1XUbsx2-sYOGXeXfHScYTfao.jpg"
               alt="Icon representing collaboration and teamwork"
-              className="ml-4"
               width="40"
               height="40"
             />
-            <div className="ml-4">
-              <h3 className="h5 font-weight-bold">
+            <div>
+              <h3 className="h5 fw-bold mb-2">
                 Collaboration and Teamwork
               </h3>
-              <p>Trust is the foundation of all successful partnerships.</p>
+              <p className="mb-0">Trust is the foundation of all successful partnerships.</p>
             </div>
           </div>
         </div>

@@ -4822,11 +4822,11 @@ span {
 }
 
 .mycustom-marque.style-2 .scrolling-wrap .comm .cmn-textslide {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 800;
   text-transform: capitalize;
   color: var(--header);
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .mycustom-marque.style-2.bg-2 {
@@ -4863,7 +4863,7 @@ span {
 }
 
 .mycustom-marque.style-3 .scrolling-wrap .comm .cmn-textslide {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 800;
   text-transform: capitalize;
   color: var(--header);

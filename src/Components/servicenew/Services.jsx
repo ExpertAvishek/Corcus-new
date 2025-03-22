@@ -83,8 +83,8 @@ const Services = () => {
   };
 
   return (
-    <div data-aos="fade-up" className="services">
-      <div className="service-height">
+    <div data-aos="fade-up" className="seevices">
+      <div className="seevice-height">
         <h2 className="main-heading">
           OUR <br />
           <span className="sec-heading">SERVICES</span>
@@ -104,7 +104,7 @@ const Services = () => {
                 </div>
                 <div className="column2">
                   <div className="arr-sec">
-                    <p className="services-subheading">{service.description}</p>
+                    <p className="seevices-subheading">{service.description}</p>
                     <img
                       alt="Down Arrow"
                       width="100"
@@ -119,7 +119,7 @@ const Services = () => {
                 <div className="row">
                   <div className="column1">
                     {service.list.map((item, i) => (
-                      <p key={i} className="service-list">{`${
+                      <p key={i} className="seevice-list">{`${
                         i + 1
                       }. ${item}`}</p>
                     ))}
@@ -139,7 +139,7 @@ const Services = () => {
                           alt={`${service.title} Image ${i + 1}`}
                           width="100"
                           height="37"
-                          className="service-image"
+                          className="seevice-image"
                           src={img}
                         />
                       ))}

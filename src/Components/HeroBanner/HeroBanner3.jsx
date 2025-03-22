@@ -73,7 +73,7 @@ const HeroBanner3 = () => {
             padding: 10px 20px;
             display: flex;
             align-items: center;
-            radius:5px
+            border-radius: 25px;
             gap: 8px;
             transition: all 0.3s ease-in-out;
           }

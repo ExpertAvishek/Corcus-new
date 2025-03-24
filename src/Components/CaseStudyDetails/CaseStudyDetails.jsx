@@ -143,4 +143,4 @@ const CaseStudyDetails = () => {
     );
 };
 
-export default CaseStudyDetails;
+export default CaseStudyDetail;

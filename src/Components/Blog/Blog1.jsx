@@ -64,5 +64,4 @@ const Blog1 = () => {
         </section>
     );
 };
-
 export default Blog1;

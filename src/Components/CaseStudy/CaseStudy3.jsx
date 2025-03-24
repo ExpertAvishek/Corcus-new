@@ -12,7 +12,7 @@ const CaseStudy3 = () => {
         arrows: false,
         swipeToSlide: true,
         autoplay: true,
-        autoplaySpeed: 4000,        
+        autoplaySpeed:4000,       
         responsive: [
           {
             breakpoint: 1399,

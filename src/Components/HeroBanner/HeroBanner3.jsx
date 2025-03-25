@@ -39,7 +39,7 @@ const HeroBanner3 = () => {
       " Scale Your Brand with<span> Performance<br>Driven Marketing </br></span>",
     content:
       " We help businesses maximize their ROI with data-driven strategies, high-converting ads, and powerful digital campaigns.",
-    btnname: "Get a Free Consultation",
+    btnname: "Get Started",
     btnname2: "Contact Us",
     btnurl: "/contact",
   };

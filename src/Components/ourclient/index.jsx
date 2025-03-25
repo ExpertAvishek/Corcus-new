@@ -33,12 +33,29 @@ const Client = () => {
     });
   }, []);
 
+  useEffect(() => {
+    const scrollContainer = document.getElementById("logo-scroll");
+    let scrollAmount = 0;
+    const speed = 1; // Adjust speed
+    const scrollStep = () => {
+      if (scrollContainer) {
+        scrollAmount += speed;
+        if (scrollAmount >= scrollContainer.scrollWidth / 2) {
+          scrollAmount = 0;
+        }
+        scrollContainer.scrollLeft = scrollAmount;
+        requestAnimationFrame(scrollStep);
+      }
+    };
+    scrollStep();
+  }, []);
+
   return (
     <div
       className="container py-5 bg-gradient"
       style={{ fontFamily: "Poppins, sans-serif" }}
     >
-      <div className="text-right mb-4">
+      <div className="text-left mb-4">
         <h1 className="display-4 fw-bold text-black">OUR</h1>
         <h2
           className="display-3 fw-bold"
@@ -49,32 +66,68 @@ const Client = () => {
         >
           CLIENTS
         </h2>
-        <p className="h5 text-primary text-end text-black">
+        <p className="h5 text-primary text-start text-black">
           Trusted by 1000K plus customers
         </p>
       </div>
-      <div className="row mt-5">
-        {[
-          "01.png",
-          "02.png",
-          "03.png",
-          "04.png",
-          "05.png",
-          "06.png",
-          "07.png",
-          "08.png",
-          "09.png",
-        ].map((img, index) => (
-          <div className="col-6 col-md-3 mb-4" key={index}>
-            <img
-              src={`public/assets/clients/${img}`}
-              alt={`Client ${index + 1} logo`}
-              className="img-fluid"
-            />
-          </div>
-        ))}
+
+      {/* Added spacing between heading and logo */}
+      <div className="mb-5"></div>
+
+      {/* Logo Scrolling Section */}
+      <div
+        id="logo-scroll"
+        className="d-flex flex-column align-items-start overflow-hidden mb-5" // Added mb-5 for spacing
+        style={{ maxWidth: "300%", whiteSpace: "nowrap" }}
+      >
+        <div className="d-flex flex-nowrap gap-3 mb-3">
+          {[
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png",
+            "05.png",
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png",
+            "05.png",
+          ].map((img, index) => (
+            <div className="flex-shrink-0" key={index}>
+              <img
+                src={`public/assets/clients/${img}`}
+                alt={`Client ${index + 1} logo`}
+                className="img-fluid"
+                style={{ width: "120px", height: "auto" }}
+              />
+            </div>
+          ))}
+        </div>
+        <div className="d-flex flex-nowrap gap-3">
+          {[
+            "06.png",
+            "07.png",
+            "08.png",
+            "09.png",
+            "06.png",
+            "07.png",
+            "08.png",
+            "09.png",
+          ].map((img, index) => (
+            <div className="flex-shrink-0" key={index}>
+              <img
+                src={`public/assets/clients/${img}`}
+                alt={`Client ${index + 6} logo`}
+                className="img-fluid"
+                style={{ width: "120px", height: "auto" }}
+              />
+            </div>
+          ))}
+        </div>
       </div>
-      <div className="row mt-5 text-center">
+
+      {/* Counter Section */}
+      <div className="row mt-5 pt-5 text-center">
         {[
           { target: 387, text: "Project Delivered & Counting" },
           { target: 7, text: "Years of Combined Experience" },
@@ -87,9 +140,7 @@ const Client = () => {
             <p
               className="display-4 fw-bold counter"
               data-target={item.target}
-              style={{
-                color: "black", // Removes fill color
-              }}
+              style={{ color: "black" }}
             >
               0
             </p>

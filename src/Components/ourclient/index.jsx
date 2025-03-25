@@ -66,22 +66,22 @@ const Client = () => {
         >
           CLIENTS
         </h2>
-        <p className="h5 text-primary text-start text-black">
+        <p className="h5 text-primary  text-start text-black">
           Trusted by 1000K plus customers
         </p>
       </div>
-
-      {/* Added spacing between heading and logo */}
-      <div className="mb-5"></div>
-
-      {/* Logo Scrolling Section */}
       <div
         id="logo-scroll"
-        className="d-flex flex-column align-items-start overflow-hidden mb-5" // Added mb-5 for spacing
+        className="d-flex flex-column align-items-start overflow-hidden"
         style={{ maxWidth: "300%", whiteSpace: "nowrap" }}
       >
         <div className="d-flex flex-nowrap gap-3 mb-3">
           {[
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png",
+            "05.png",
             "01.png",
             "02.png",
             "03.png",
@@ -113,6 +113,14 @@ const Client = () => {
             "07.png",
             "08.png",
             "09.png",
+            "06.png",
+            "07.png",
+            "08.png",
+            "09.png",
+            "06.png",
+            "07.png",
+            "08.png",
+            "09.png",
           ].map((img, index) => (
             <div className="flex-shrink-0" key={index}>
               <img
@@ -125,9 +133,7 @@ const Client = () => {
           ))}
         </div>
       </div>
-
-      {/* Counter Section */}
-      <div className="row mt-5 pt-5 text-center">
+      <div className="row mt-5 text-center">
         {[
           { target: 387, text: "Project Delivered & Counting" },
           { target: 7, text: "Years of Combined Experience" },

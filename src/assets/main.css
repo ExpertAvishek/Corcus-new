@@ -9694,22 +9694,32 @@ body {
   color: transparent;
 }
 
-/* Marquee */
+/* Marquee Container */
 .marquee-container {
-  margin-top: 40px;
-}
-
-.marquee-text {
+  width: 110%;
   background-color: black;
-  color: white;
-  border-radius: 8px;
-  font-weight: bold;
-  text-transform: uppercase;
+  padding: 5px 0;
+  margin-top: 120px;
+  transform: rotate(-18deg);
+
 }
 
-.marquee-text.rotated {
-  transform: rotate(-10deg);
-  margin-top: 5px;
+.marquee-container2 {
+  width: 100%;
+  background-color: rgb(104, 103, 103);
+  padding: 5px 0;
+  margin-top: 20px;
+  margin-left: 50px;
+  transform: rotate(-16deg);
+
+}
+
+/* Marquee Text */
+.marquee-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
 }
 
 /* Responsive */

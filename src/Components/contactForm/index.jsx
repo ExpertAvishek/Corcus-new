@@ -51,7 +51,7 @@ const ContactForm = () => {
           </div>
 
           {/* Right Side Form */}
-          <div className="col-md-6 p-4">
+          <div className="col-md-6 p-4 bg-white rounded">
             <form onSubmit={handleSubmit}>
               <div className="mb-3">
                 <input
@@ -100,17 +100,25 @@ const ContactForm = () => {
                 Submit
               </button>
             </form>
+            {/* Marquee Section Inside White Section */}
+            <div className="mt-4">
+              <div className="marquee-container">
+                <Marquee gradient={false} speed={60} className="marquee-text">
+                  BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW
+                </Marquee>
+              </div>
+              <div className="marquee-container2">
+                <Marquee
+                  gradient={false}
+                  speed={60}
+                  direction="right"
+                  className="marquee-text"
+                >
+                  BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW
+                </Marquee>
+              </div>
+            </div>
           </div>
-        </div>
-
-        {/* Marquee Animation */}
-        <div className="marquee-container">
-          <Marquee className="marquee-text">
-            BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW
-          </Marquee>
-          <Marquee className="marquee-text rotated">
-            BOOK NOW &nbsp; BOOK NOW &nbsp; BOOK NOW &nbsp; Book Now
-          </Marquee>
         </div>
       </div>
     </div>

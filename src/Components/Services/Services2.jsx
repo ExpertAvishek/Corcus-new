@@ -17,7 +17,7 @@ const Services2 = () => {
     <section className="service-section py-40">
       <div className="container mx-auto">
         <div className="section-title text-center">
-          <h1 className="text-dark-yellow text-5xl font-bold mb-8">
+          <h1 className="text-dark-yellow text-10xl font-bold mb-8">
             The Service We Provide For You
           </h1>
         </div>
@@ -47,7 +47,7 @@ const Services2 = () => {
                   />
                 </div>
                 <div className="content text-center">
-                  <h3 className="text-2xl font-semibold mb-3 text-white">
+                  <h3 className="text-3xl font-semibold mb-3 text-white">
                     <Link
                       to="/service/service-details"
                       className="hover:text-yellow-500"

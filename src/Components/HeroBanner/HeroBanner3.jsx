@@ -35,8 +35,7 @@ const HeroBanner3 = () => {
 
   const heroContent = {
     subtitle: "go for advertising",
-    title:
-      " Scale Your Brand with Performance Driven Marketing",
+    title: " Scale Your Brand with Performance Driven Marketing",
     content:
       " We help businesses maximize their ROI with data-driven strategies, high-converting ads, and powerful digital campaigns.",
     btnname: "Get Started",
@@ -45,7 +44,10 @@ const HeroBanner3 = () => {
   };
 
   return (
-    <section className="hero-section hero-3">
+    <section
+      className="hero-section hero-3"
+      style={{ padding: "30px 0 10px 0" }}
+    >
       <div className="container-fluid">
         <div className="row g-4 justify-content-between align-items-center">
           <div className="col-lg-6">

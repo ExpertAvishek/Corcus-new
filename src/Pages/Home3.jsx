@@ -29,7 +29,7 @@ const Home3 = () => {
       <Marquee3></Marquee3>
       <Client></Client>
       <Poweredby></Poweredby>
-      <WhyChoose3></WhyChoose3>
+      {/* <WhyChoose3></WhyChoose3> */}
       {/* <Testimonial3></Testimonial3> */}
       <Testimonial4></Testimonial4>
       <ContactForm></ContactForm>

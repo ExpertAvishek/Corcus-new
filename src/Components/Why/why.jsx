@@ -28,7 +28,7 @@ const Why = () => {
         {/* Image Section */}
         <div className="col-lg-6 mb-4 mb-lg-0">
           <img
-            src=""
+            src="\public\assets\img\why.png"
             alt="Placeholder image for the section"
             className="img-fluid"
           />
@@ -36,12 +36,17 @@ const Why = () => {
         {/* Content Section */}
         <div className="col-lg-6">
           <div className="d-flex align-items-center mb-4 gap-4">
-            <div className="text-black display-4">01</div>
+            <div className="display-3 fw-bold"
+          style={{
+            WebkitTextStroke: "3px black", // Stroke effect
+            color: "transparent", // Removes fill color
+          }}>#</div>
             <img
-              src="https://storage.googleapis.com/a1aa/image/9ZqNSBt3oECYmUYDesZIM36AoeRPtgH-KYeGSYY2a8M.jpg"
+              src="public\assets\img/pimg1.png"
               alt="Icon representing innovation-driven strategies"
-              width="40"
-              height="40"
+              width="30"
+              height="30"
+              
             />
             <div>
               <h3 className="h5 fw-bold mb-2">
@@ -51,9 +56,14 @@ const Why = () => {
             </div>
           </div>
           <div className="d-flex align-items-center mb-4 gap-4">
-            <div className="text-black display-4">02</div>
+            <div className="display-3 fw-bold"
+            style={{
+              WebkitTextStroke: "3px black", // Stroke effect
+              color: "transparent", // Removes fill color
+            }}>#</div>
+
             <img
-              src="https://storage.googleapis.com/a1aa/image/AtJo7pNfsjd8A4DJMLCF7ZFn03dpM-V6XeyR-zgLYok.jpg"
+              src="public\assets\img/pimg2.png"
               alt="Icon representing client-centric approach"
               width="40"
               height="40"
@@ -64,9 +74,14 @@ const Why = () => {
             </div>
           </div>
           <div className="d-flex align-items-center mb-4 gap-4">
-            <div className="text-black display-4">03</div>
+            <div className="display-3 fw-bold"
+            style={{
+              WebkitTextStroke: "3px black", // Stroke effect
+              color: "transparent", // Removes fill color
+            }}>#</div>
+            
             <img
-              src="https://storage.googleapis.com/a1aa/image/sEMFNr7IaSRRRL_igj1N1pKaiP-wQSEu4iKfXSlZFyU.jpg"
+              src="public\assets\img/pimg3.png"
               alt="Icon representing industry expertise"
               width="40"
               height="40"
@@ -77,9 +92,13 @@ const Why = () => {
             </div>
           </div>
           <div className="d-flex align-items-center mb-4 gap-4">
-            <div className="text-black display-4">04</div>
+            <div className="display-3 fw-bold"
+            style={{
+              WebkitTextStroke: "3px black", // Stroke effect
+              color: "transparent", // Removes fill color
+            }}>#</div>
             <img
-              src="https://storage.googleapis.com/a1aa/image/1VRK4AsD_Q0mpk6flDadeSnpuigkkjP8KHgmQd8T4kM.jpg"
+              src="public\assets\img/pimg4.png"
               alt="Icon representing client-centric focus"
               width="40"
               height="40"
@@ -90,9 +109,14 @@ const Why = () => {
             </div>
           </div>
           <div className="d-flex align-items-center mb-4 gap-4">
-            <div className="text-black display-4">05</div>
+            <div className="display-3 fw-bold"
+            style={{
+              WebkitTextStroke: "3px black", // Stroke effect
+              color: "transparent", // Removes fill color
+            }}>#</div>
+            
             <img
-              src="https://storage.googleapis.com/a1aa/image/4QPwVTyLY0P-zNbwLhz1XUbsx2-sYOGXeXfHScYTfao.jpg"
+              src="public\assets\img/pimg5.png"
               alt="Icon representing collaboration and teamwork"
               width="40"
               height="40"

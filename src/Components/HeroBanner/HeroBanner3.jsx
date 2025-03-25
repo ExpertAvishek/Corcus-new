@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import { Link } from "react-router-dom";
 import parse from "html-react-parser";
@@ -10,14 +10,35 @@ const HeroBanner3 = () => {
     loadBackgroudImages();
   }, []);
 
+  // State to manage the image index for the hero images
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // Array of images to be auto-scrolled in the content section
+  const heroImages = [
+    "/assets/img/hero/hero-image-1.png",
+    "/assets/img/hero/hero-image-4.png",
+    "/assets/img/hero/hero-image-5.png",
+    "/assets/img/hero/hero-image-6.png",
+    "/assets/img/hero/hero-image-7.png", // Add more images as needed
+  ];
+
+  // Set the interval to change the image every 3 seconds (3000ms)
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentImageIndex((prevIndex) =>
+        prevIndex === heroImages.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 3000); // Change image every 3 seconds
+
+    return () => clearInterval(intervalId); // Cleanup interval on component unmount
+  }, []);
+
   const heroContent = {
-    bg: "/assets/img/hero/hero-bg-3.jpg",
     subtitle: "go for advertising",
     title:
       " Scale Your Brand with<span> Performance<br>Driven Marketing </br></span>",
     content:
       " We help businesses maximize their ROI with data-driven strategies, high-converting ads, and powerful digital campaigns.",
-    img: "/assets/img/hero/hero-image-3.png",
     btnname: "Get a Free Consultation",
     btnname2: "Contact Us",
     btnurl: "/contact",
@@ -57,7 +78,7 @@ const HeroBanner3 = () => {
               data-wow-duration="1.5s"
               data-wow-delay="0.3s"
             >
-              <img src={heroContent.img} alt="Hero" />
+              <img src={heroImages[currentImageIndex]} alt="Hero" />
             </div>
           </div>
         </div>

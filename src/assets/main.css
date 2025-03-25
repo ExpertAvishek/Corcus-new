@@ -4431,7 +4431,7 @@ span {
 }
 
 .hero-3 .container-fluid {
-  padding: 0 190px;
+  padding: 0 140px;
 }
 
 @media (max-width: 1600px) {
@@ -4453,7 +4453,7 @@ span {
 }
 
 .hero-3 .hero-content {
-  max-width: 580px;
+  max-width: 700px;
 }
 
 .hero-3 .hero-content h6 {
@@ -4467,7 +4467,7 @@ span {
 }
 
 .hero-3 .hero-content h1 {
-  font-size: 60px;
+  font-size: 40px;
   color: var(--header);
   font-weight: 700;
 }
@@ -4491,7 +4491,7 @@ span {
 }
 
 .hero-3 .hero-content h1 span {
-  background: linear-gradient(90deg, #f8e300 35.31%, #ffd000 100%);
+  background: linear-gradient(90deg, #111111 35.31%, #010101 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -4567,7 +4567,7 @@ span {
 .mean-container .mean-nav>ul .homemenu-items {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   justify-content: space-between;
 }
 

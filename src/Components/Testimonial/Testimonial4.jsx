@@ -1,85 +1,90 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft, faChevronRight, faStar } from '@fortawesome/free-solid-svg-icons';
 
-
-const Testimonial4 = () => {
+const ClientFeedback = () => {
   return (
-    <div className="container py-5">
-      <div className="feedback-title">
-        <h1>CLIENT</h1>
-        <h2>FEEDBACK</h2>
+    <div className="bg-white py-5">
+      <div className="container text-center mb-5">
+        <h1 className="display-4 font-weight-bold">CLIENT</h1>
+        <h2 className="display-3 font-weight-bold">FEEDBACK</h2>
       </div>
-      <div className="row mt-4">
-        <div className="col-lg-3 col-md-6 mb-4">
-          <div className="feedback-card">
-            <h3>Dan Gabreil</h3>
-            <p>Marketing Head | Coinsafe VPN</p>
-            <div className="stars">
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-            </div>
-            <p className="feedback-text">Corcus Studio transformed our online presence. Our ROAS doubled in just 3 months
-            </p>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-6 mb-4">
-          <div className="feedback-card">
-            <h3>Charu Jain</h3>
-            <p>Marketing Head | Rishabh Industries Pvt</p>
-            <div className="stars">
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-            </div>
-            <p className="feedback-text"> Exceptional team! Their ad campaigns brought us quality leads at an unbeatable cost.
-            </p>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-6 mb-4">
-          <div className="feedback-card">
-            <h3>Norman Dental</h3>
-            <p>CEO | Wurth Industries</p>
-            <div className="stars">
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-            </div>
-            <p className="feedback-text">The best decision we made for our brand! Their creative team and ad strategy are top-notch.
-            </p>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-6 mb-4">
-          <div className="feedback-card">
-            <h3>Monika K</h3>
-            <p>Founder | K99 Solutions</p>
-            <div className="stars">
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-            </div>
-            <p className="feedback-text">I would highly recommend Corcus Studio to anyone looking for top-tier design services.</p>
-          </div>
-        </div>
-      </div>
-      <div className="navigation-buttons">
-        <button>
-          <i className="fas fa-chevron-left"></i>
+      <div className="container d-flex align-items-center justify-content-between">
+        <button className="btn btn-link text-warning display-4">
+          <FontAwesomeIcon icon={faChevronLeft} />
         </button>
-        <button>
-          <i className="fas fa-chevron-right"></i>
+        <div className="row w-100">
+          <div className="col-lg-3 col-md-6 mb-4">
+            <div className="card h-100 shadow-sm">
+              <div className="card-body">
+                <h5 className="card-title font-weight-bold">Dan Gabreil</h5>
+                <h6 className="card-subtitle mb-2 text-muted">Marketing Head | Coinsafe VPN</h6>
+                <div className="text-warning mb-3">
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                </div>
+                <p className="card-text">Working with Doodlo was a Game changer for us. They revamped our brand and website with unmatched creativity & precision. Their team's dedication and attention to detail is truly impressive. Highly recommended for design</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6 mb-4">
+            <div className="card h-100 shadow-sm">
+              <div className="card-body">
+                <h5 className="card-title font-weight-bold">Charu Jain</h5>
+                <h6 className="card-subtitle mb-2 text-muted">Marketing Head | Rishabh Industries Pvt Ltd</h6>
+                <div className="text-warning mb-3">
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                </div>
+                <p className="card-text">Doodlo Guys hyped our packaging design! Their creativity and attention to detail brought our product to life in ways we never imagined. couldn't be more pleased with the outcome!</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6 mb-4">
+            <div className="card h-100 shadow-sm">
+              <div className="card-body">
+                <h5 className="card-title font-weight-bold">Norman Dental</h5>
+                <h6 className="card-subtitle mb-2 text-muted">CEO | Wurth Industries</h6>
+                <div className="text-warning mb-3">
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                </div>
+                <p className="card-text">Doodlo is definitely the right choice for our coffee table Project. The team came up with unique set of ideas that clearly sets us apart from being normal. We are very happy with the final book importantly very constructive and flexible collab. Good work</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6 mb-4">
+            <div className="card h-100 shadow-sm">
+              <div className="card-body">
+                <h5 className="card-title font-weight-bold">Monika K</h5>
+                <h6 className="card-subtitle mb-2 text-muted">Founder | K99 Solutions</h6>
+                <div className="text-warning mb-3">
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} />
+                </div>
+                <p className="card-text">You guys nailed it! Their work on our brand and website was absolutely top- notch. It was so good to check the final results. From content to design everything exceeded our expectations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button className="btn btn-link text-warning display-4">
+          <FontAwesomeIcon icon={faChevronRight} />
         </button>
       </div>
     </div>
   );
 };
-export default Testimonial4;
- 
+
+export default ClientFeedback;

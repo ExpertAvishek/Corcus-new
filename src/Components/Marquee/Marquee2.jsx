@@ -22,7 +22,7 @@ const Marquee2 = () => {
         <div
           style={{
             display: "flex",
-            animation: "marquee-right 12s linear infinite",
+            animation: "marquee-right 20s linear infinite",
             minWidth: "200%",
           }}
         >
@@ -67,7 +67,7 @@ const Marquee2 = () => {
         <div
           style={{
             display: "flex",
-            animation: "marquee-left 10s linear infinite",
+            animation: "marquee-left 20s linear infinite",
             minWidth: "200%",
           }}
         >

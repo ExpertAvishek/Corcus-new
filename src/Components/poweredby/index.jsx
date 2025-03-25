@@ -16,7 +16,7 @@ const Poweredby = () => {
 
   return (
     <div className="bg-black py-5 text-center">
-      <h4 className="text-white mb-4">Working With</h4>
+      <h4 className="text-white mb-4">Partner with</h4>
       <div className="container">
         <div className="row justify-content-center">
           {logos.map((logo, index) => (

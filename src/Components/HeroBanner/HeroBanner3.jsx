@@ -16,10 +16,10 @@ const HeroBanner3 = () => {
   // Array of images to be auto-scrolled in the content section
   const heroImages = [
     "/assets/img/hero/hero-image-1.png",
+    "/assets/img/hero/hero-image-2.png",
+    "/assets/img/hero/hero-image-3.png",
     "/assets/img/hero/hero-image-4.png",
-    "/assets/img/hero/hero-image-5.png",
-    "/assets/img/hero/hero-image-6.png",
-    "/assets/img/hero/hero-image-7.png", // Add more images as needed
+    "/assets/img/hero/hero-image-5.png", // Add more images as needed
   ];
 
   // Set the interval to change the image every 3 seconds (3000ms)

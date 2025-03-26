@@ -9731,3 +9731,63 @@ body {
     margin-top: 15px;
   }
 }
+
+
+@keyframes scroll-right {
+  from {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.scroll-container {
+  white-space: nowrap;
+  position: relative;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  width: 80%;
+}
+
+.scrolling-content {
+  display: flex;
+  gap: 60px;
+  /* Space between logos */
+  animation: scroll-left 20s linear infinite;
+}
+
+.reverse .scrolling-content {
+  animation: scroll-right 20s linear infinite;
+}
+
+.client-logo {
+  width: 120px;
+  height: 60px;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  from {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Space between the two lines */
+.mt-4 {
+  margin-top: 40px;
+}

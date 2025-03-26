@@ -1,5 +1,4 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 const Testimonial = () => {
   return (
     <div className="container py-5">
@@ -33,7 +32,9 @@ const Testimonial = () => {
               height="40"
             />
             <div className="ml-4">
-              <h3 className="h5 font-weight-bold">Innovation-Driven Strategies</h3>
+              <h3 className="h5 font-weight-bold">
+                Innovation-Driven Strategies
+              </h3>
               <p>We believe in staying ahead of the curve.</p>
             </div>
           </div>
@@ -89,7 +90,9 @@ const Testimonial = () => {
               height="40"
             />
             <div className="ml-4">
-              <h3 className="h5 font-weight-bold">Collaboration and Teamwork</h3>
+              <h3 className="h5 font-weight-bold">
+                Collaboration and Teamwork
+              </h3>
               <p>Trust is the foundation of all successful partnerships.</p>
             </div>
           </div>

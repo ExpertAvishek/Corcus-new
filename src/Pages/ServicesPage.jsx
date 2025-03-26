@@ -6,10 +6,12 @@ import Testimonial2 from "../Components/Testimonial/Testimonial2";
 import WhyChoose4 from "../Components/WhyChoose/WhyChoose4";
 import ContactForm from "../Components/contactForm";
 import Servicesnew from "../Components/servicenew/Services";
+import Serviceshero from "../Components/HeroBanner/Serviceshero";
 
 const ServicesPage = () => {
   return (
     <div>
+      <Serviceshero></Serviceshero>
       <Services2></Services2>
       <Servicesnew></Servicesnew>
       {<ContactForm></ContactForm>}

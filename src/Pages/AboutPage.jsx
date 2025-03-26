@@ -3,6 +3,7 @@ import Value1 from "../Components/Value/Value1";
 import Abouthero from "../Components/HeroBanner/Abouthero";
 import ContactPage from "./ContactPage";
 import Team2 from "../Components/Team/Team2";
+import ContactForm from "../Components/contactForm";
 
 
 const AboutPage = () => {
@@ -12,7 +13,7 @@ const AboutPage = () => {
             <Counter3></Counter3>
             <Value1></Value1>
             <Team2></Team2>
-            <ContactPage></ContactPage>
+            <ContactForm></ContactForm>
         </div>
     );
 };

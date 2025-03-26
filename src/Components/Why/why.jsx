@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Why = () => {
@@ -93,7 +93,7 @@ const Why = () => {
                 color: "transparent", // Removes fill color
               }}
             >
-             2 
+              2
             </div>
 
             <img
@@ -104,7 +104,9 @@ const Why = () => {
             />
             <div>
               <h3 className="h5 fw-bold mb-2">Client-Centric Approach</h3>
-              <p className="mb-0">Our clients are at the heart of everything we do.</p>
+              <p className="mb-0">
+                Our clients are at the heart of everything we do.
+              </p>
             </div>
           </div>
           <div className="d-flex align-items-center mb-4 gap-4">
@@ -126,7 +128,9 @@ const Why = () => {
             />
             <div>
               <h3 className="h5 fw-bold mb-2">Industry Expertise</h3>
-              <p className="mb-0">Trust is the foundation of all successful partnerships.</p>
+              <p className="mb-0">
+                Trust is the foundation of all successful partnerships.
+              </p>
             </div>
           </div>
           <div className="d-flex align-items-center mb-4 gap-4">
@@ -137,7 +141,7 @@ const Why = () => {
                 color: "transparent", // Removes fill color
               }}
             >
-             4 
+              4
             </div>
             <img
               src="public/assets/img/pimg4.png"
@@ -147,7 +151,9 @@ const Why = () => {
             />
             <div>
               <h3 className="h5 fw-bold mb-2">Client-Centric Focus</h3>
-              <p className="mb-0">Our mission is to generate measurable outcomes.</p>
+              <p className="mb-0">
+                Our mission is to generate measurable outcomes.
+              </p>
             </div>
           </div>
           <div className="d-flex align-items-center mb-4 gap-4">
@@ -169,7 +175,9 @@ const Why = () => {
             />
             <div>
               <h3 className="h5 fw-bold mb-2">Collaboration and Teamwork</h3>
-              <p className="mb-0">Trust is the foundation of all successful partnerships.</p>
+              <p className="mb-0">
+                Trust is the foundation of all successful partnerships.
+              </p>
             </div>
           </div>
         </div>

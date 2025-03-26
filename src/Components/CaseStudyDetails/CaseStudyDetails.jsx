@@ -1,5 +1,3 @@
-import React from "react";
-
 const CaseStudyDetails = () => {
   return (
     <section className="project-details-section fix section-padding">

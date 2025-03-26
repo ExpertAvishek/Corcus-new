@@ -1,5 +1,3 @@
-import React from "react";
-
 const Marquee2 = () => {
   return (
     <div style={{ width: "100%", position: "relative", height: "100px" }}>

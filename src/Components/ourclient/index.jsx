@@ -34,20 +34,27 @@ const Client = () => {
   }, []);
 
   useEffect(() => {
-    const scrollContainer = document.getElementById("logo-scroll");
-    let scrollAmount = 0;
-    const speed = 1; // Adjust speed
-    const scrollStep = () => {
-      if (scrollContainer) {
-        scrollAmount += speed;
-        if (scrollAmount >= scrollContainer.scrollWidth / 2) {
-          scrollAmount = 0;
+    const scrollContainers = document.querySelectorAll(".logo-scroll");
+    const speeds = [1, -1]; // Alternating directions
+
+    scrollContainers.forEach((container, index) => {
+      let scrollAmount = 0;
+      const speed = speeds[index % speeds.length];
+
+      const scrollStep = () => {
+        if (container) {
+          scrollAmount += speed;
+          if (speed > 0 && scrollAmount >= container.scrollWidth / 2) {
+            scrollAmount = 0;
+          } else if (speed < 0 && scrollAmount <= 0) {
+            scrollAmount = container.scrollWidth / 2;
+          }
+          container.scrollLeft = scrollAmount;
+          requestAnimationFrame(scrollStep);
         }
-        scrollContainer.scrollLeft = scrollAmount;
-        requestAnimationFrame(scrollStep);
-      }
-    };
-    scrollStep();
+      };
+      scrollStep();
+    });
   }, []);
 
   return (
@@ -60,39 +67,26 @@ const Client = () => {
         <h2
           className="display-3 fw-bold"
           style={{
-            WebkitTextStroke: "2px black", // Stroke effect
-            color: "transparent", // Removes fill color
+            WebkitTextStroke: "2px black",
+            color: "transparent",
           }}
         >
           CLIENTS
         </h2>
-        <p className="h5 text-primary  text-start text-black">
+        <p className="h5 text-primary text-start text-black">
           Trusted by 1000K plus customers
         </p>
       </div>
-      <div
-        id="logo-scroll"
-        className="d-flex flex-column align-items-start overflow-hidden"
-        style={{ maxWidth: "300%", whiteSpace: "nowrap" }}
-      >
-        <div className="d-flex flex-nowrap gap-3 mb-3">
-          {[
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png",
-            "05.png",
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png",
-            "05.png",
-            "01.png",
-            "02.png",
-            "03.png",
-            "04.png",
-            "05.png",
-          ].map((img, index) => (
+      {[
+        ["01.png", "02.png", "03.png", "04.png", "05.png"],
+        ["06.png", "07.png", "08.png", "09.png"],
+      ].map((images, idx) => (
+        <div
+          key={idx}
+          className="logo-scroll d-flex flex-nowrap gap-3 mb-3 overflow-hidden"
+          style={{ maxWidth: "300%", whiteSpace: "nowrap" }}
+        >
+          {images.concat(images).map((img, index) => (
             <div className="flex-shrink-0" key={index}>
               <img
                 src={`public/assets/clients/${img}`}
@@ -103,36 +97,7 @@ const Client = () => {
             </div>
           ))}
         </div>
-        <div className="d-flex flex-nowrap gap-3">
-          {[
-            "06.png",
-            "07.png",
-            "08.png",
-            "09.png",
-            "06.png",
-            "07.png",
-            "08.png",
-            "09.png",
-            "06.png",
-            "07.png",
-            "08.png",
-            "09.png",
-            "06.png",
-            "07.png",
-            "08.png",
-            "09.png",
-          ].map((img, index) => (
-            <div className="flex-shrink-0" key={index}>
-              <img
-                src={`public/assets/clients/${img}`}
-                alt={`Client ${index + 6} logo`}
-                className="img-fluid"
-                style={{ width: "120px", height: "auto" }}
-              />
-            </div>
-          ))}
-        </div>
-      </div>
+      ))}
       <div className="row mt-5 text-center">
         {[
           { target: 387, text: "Project Delivered & Counting" },
